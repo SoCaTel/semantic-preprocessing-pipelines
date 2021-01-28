@@ -1,0 +1,16 @@
+<lp-dialog-control-config lp-dialog="dialog" lp-application="application"></lp-dialog-control-config>
+<div>
+    <md-input-container class="md-block" ng-hide="dialog.outputMode.hide">
+        <label>Output mode</label>
+        <md-select
+                ng-disabled="dialog.outputMode.disabled || dialog.outputMode.inherit"
+                ng-model="dialog.outputMode.value">
+            <md-option value="http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#createNewChunk">Query results form output chunks</md-option>
+            <md-option value="http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#addToChunk">Query results merged into input chunks</md-option>
+        </md-select>
+    </md-input-container>
+    <md-input-container class="md-block" ng-hide="dialog.query.hide">
+        SPARQL CONSTRUCT query
+        <lp-yasqe ng-model="dialog.query.value" ng-disabled="dialog.query.disabled || dialog.query.inherit"/>
+    </md-input-container>
+</div>

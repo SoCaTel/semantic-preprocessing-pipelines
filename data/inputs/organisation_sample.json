@@ -1,0 +1,42 @@
+[
+	
+    {
+        "organisation_id": 4,
+        "organisation_name": "Health Service Executive (HSE)",
+        "organisation_structure": 0,
+        "organisation_website": "https://www.hse.ie/eng/",
+        "twitter_screen_name": "HSElive",
+        "twitter_account_description": "The HSE Home Support Service aims to assist and support people to remain at home and support informal carers: getting in and out of bed, dressing and undressing, personal care such as showering and shaving, help at mealtime and/or with essential domestic duties, Aged 65 or over, need support to continue living at home or to return home following a, hospital stay, Not a 24hr care, Assessed on care needs and not on income level, Free service",
+        "twitter_user_id": 69298376,
+        "twitter_oauth_token": null,
+        "twitter_oauth_secret": null,
+        "facebook_oauth_token": null,
+        "facebook_page_id": null
+    },
+    {
+        "organisation_id": 39,
+        "organisation_name": "Hoiva- ja Talkkaripalvelut Rajaveräjä",
+        "organisation_structure": 0,
+        "organisation_website": "http://www.ikifit.fi/",
+        "twitter_screen_name": null,
+        "twitter_account_description": null,
+        "twitter_user_id": null,
+        "twitter_oauth_token": null,
+        "twitter_oauth_secret": null,
+        "facebook_oauth_token": null,
+        "facebook_page_id": null
+    },
+    {
+        "organisation_id": 43,
+        "organisation_name": "Lääkärikeskus Medical",
+        "organisation_structure": 0,
+        "organisation_website": "http://www.laakarikeskusmedical.fi",
+        "twitter_screen_name": null,
+        "twitter_account_description": null,
+        "twitter_user_id": null,
+        "twitter_oauth_token": null,
+        "twitter_oauth_secret": null,
+        "facebook_oauth_token": null,
+        "facebook_page_id": null
+    }
+]

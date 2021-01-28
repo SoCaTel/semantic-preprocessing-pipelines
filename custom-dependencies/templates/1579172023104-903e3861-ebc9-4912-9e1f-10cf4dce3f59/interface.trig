@@ -1,0 +1,8 @@
+
+<{HOST_IP}:32800/resources/components/1579172023104-903e3861-ebc9-4912-9e1f-10cf4dce3f59> {
+  <{HOST_IP}:32800/resources/components/1579172023104-903e3861-ebc9-4912-9e1f-10cf4dce3f59>
+    a <http://linkedpipes.com/ontology/Template>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Remove duplicates request config";
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/components/1579172023104-903e3861-ebc9-4912-9e1f-10cf4dce3f59/configuration> .
+}

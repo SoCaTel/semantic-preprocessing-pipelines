@@ -1,0 +1,85 @@
+@prefix config: <http://plugins.linkedpipes.com/ontology/configuration/> .
+
+<http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/0.0.0/configuration/desc>
+    a <http://plugins.linkedpipes.com/ontology/ConfigurationDescription> ;
+    config:type <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#Configuration> ;
+    config:member <http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/1.0.0/configuration/desc/delimiter> ,
+                    <http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/1.0.0/configuration/desc/quoteChar> ,
+                    <http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/1.0.0/configuration/desc/encoding> ,
+                    <http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/1.0.0/configuration/desc/endpoint> ,
+                    <http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/1.0.0/configuration/desc/query> ,
+                    <http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/0.0.0/configuration/desc/headerAccept> ,
+                    <http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/0.0.0/configuration/desc/defaultGraph> ,
+                    <http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/0.0.0/configuration/desc/encodeRdf> ,
+                    <http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/0.0.0/configuration/desc/useAuthentication> ,
+                    <http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/0.0.0/configuration/desc/userName> ,
+                    <http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/0.0.0/configuration/desc/password> ,
+                    <http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/0.0.0/configuration/desc/useTolerantRepository> ,
+                    <http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/0.0.0/configuration/desc/handleInvalidData> .
+
+<http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/1.0.0/configuration/desc/delimiter>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#delimiter> ;
+    config:control <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#delimiterControl> .
+
+<http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/1.0.0/configuration/desc/quoteChar>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#quoteChar> ;
+    config:control <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#quoteCharControl> .
+
+<http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/1.0.0/configuration/desc/encoding>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#encoding> ;
+    config:control <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#encodingControl> .
+
+<http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/1.0.0/configuration/desc/endpoint>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#endpoint> ;
+    config:control <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#endpointControl> .
+
+<http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/1.0.0/configuration/desc/query>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#query> ;
+    config:control <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#queryControl> .
+
+<http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/0.0.0/configuration/desc/headerAccept>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#headerAccept> ;
+    config:control <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#headerAcceptControl> .
+
+<http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/0.0.0/configuration/desc/defaultGraph>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#defaultGraph> ;
+    config:control <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#defaultGraphControl> .
+
+<http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/0.0.0/configuration/desc/encodeRdf>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#encodeRdf> ;
+    config:control <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#encodeRdfControl> .
+
+<http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/0.0.0/configuration/desc/useAuthentication>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#useAuthentication> ;
+    config:control <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#useAuthenticationControl> .
+
+<http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/0.0.0/configuration/desc/userName>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#userName> ;
+    config:control <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#userNameControl> ;
+    config:private true .
+
+<http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/0.0.0/configuration/desc/password>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#password> ;
+    config:control <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#passwordControl> ;
+    config:private true .
+
+<http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/0.0.0/configuration/desc/useTolerantRepository>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#useTolerantRepository> ;
+    config:control <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#useTolerantRepositoryControl> .
+
+<http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/0.0.0/configuration/desc/handleInvalidData>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#handleInvalidData> ;
+    config:control <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#handleInvalidDataControl> .

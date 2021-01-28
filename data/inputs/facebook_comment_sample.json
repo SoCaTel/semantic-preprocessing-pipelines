@@ -1,0 +1,28 @@
+[
+  {
+    "message" : "Test Comment",
+    "reactions" : {
+      "data" : [
+        {
+          "id" : "1986916064738608",
+          "name" : "Rafael Constantinou",
+          "type" : "LIKE"
+        }
+      ],
+      "paging" : {
+        "cursors" : {
+          "before" : "QVFIUndNMERYVlhkQjFXUDRfVlB1YWVWUjVyYzFNaE9JUjFxQmpVRW0xMlpDazFQZA19RYnVHX1ZAGa0pIUEtoMzRiaUYZD",
+          "after" : "QVFIUndNMERYVlhkQjFXUDRfVlB1YWVWUjVyYzFNaE9JUjFxQmpVRW0xMlpDazFQZA19RYnVHX1ZAGa0pIUEtoMzRiaUYZD"
+        }
+      }
+    },
+    "from" : {
+      "name" : "App Page",
+      "id" : "2184505761816952"
+    },
+    "created_time" : "2019-02-05T08:23:09+0000",
+    "permalink_url" : "https://www.facebook.com/2184505761816952/posts/2184506168483578/?comment_id=2184506241816904",
+    "comment_count" : 3,
+    "id" : "2184506168483578_2184506241816904"
+  }
+]

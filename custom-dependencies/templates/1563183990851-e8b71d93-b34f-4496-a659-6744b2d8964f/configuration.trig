@@ -1,0 +1,11 @@
+
+<{HOST_IP}:32800/resources/components/1563183990851-e8b71d93-b34f-4496-a659-6744b2d8964f/configuration> {
+  <{HOST_IP}:32800/resources/components/1563183990851-e8b71d93-b34f-4496-a659-6744b2d8964f/configuration>
+    a <http://plugins.linkedpipes.com/ontology/t-rdfToFile#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileName> "rdfOutput.ttl";
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileNameControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileType> "text/turtle";
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileTypeControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#graphUri> <http://www.everis.es/SoCaTel/ontology#>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#graphUriControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
+}

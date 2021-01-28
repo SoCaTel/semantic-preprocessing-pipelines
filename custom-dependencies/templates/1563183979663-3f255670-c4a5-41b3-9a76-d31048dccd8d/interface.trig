@@ -1,0 +1,8 @@
+
+<{HOST_IP}:32800/resources/components/1563183979663-3f255670-c4a5-41b3-9a76-d31048dccd8d> {
+  <{HOST_IP}:32800/resources/components/1563183979663-3f255670-c4a5-41b3-9a76-d31048dccd8d>
+    a <http://linkedpipes.com/ontology/Template>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/t-sparqlSelect/0.0.0>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Select extracted concepts";
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/components/1563183979663-3f255670-c4a5-41b3-9a76-d31048dccd8d/configuration> .
+}

@@ -1,0 +1,13 @@
+# EXTERNAL IP of the host machine where the LinkedPipes docker container is going to be hosted.
+# It MUST include the protocol (http:// or https://) and MUST NOT include any port.
+# If this IP is set to localhost (or 127.0.0.1), then the pipelines will only be executable from the same host machine.
+HOST_IP=http://localhost
+
+# URI of the GraphDB repository where all the transformed data will be stored. It MUST be an absolute URI, ending with the repository name with a backslash.
+# It MUST NOT include any additional services after the repository name (such as /service/ or /statements/). Currently, only GraphDB repositories are supported.
+GRAPHDB_REPO_URI=http://localhost:7200/
+
+# Credentials (username and password) of the GraphDB repository where the data will be stored. The repository MUST have a username / password security to be able
+# use it in the pipelines
+GRAPHDB_USER=test
+GRAPHDB_PWD=test

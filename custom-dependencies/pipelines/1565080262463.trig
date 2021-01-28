@@ -1,0 +1,978 @@
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463> {
+  <{HOST_IP}:32800/resources/pipelines/1565080262463> a <http://linkedpipes.com/ontology/Pipeline>;
+    <http://etl.linkedpipes.com/ontology/version> "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+    <http://linkedpipes.com/ontology/profile> <{HOST_IP}:32800/resources/pipelines/1565080262463/2>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "SoCaTel - Service" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/2> a <http://linkedpipes.com/ontology/ExecutionProfile>;
+    <http://linkedpipes.com/ontology/rdfRepositoryPolicy> <http://linkedpipes.com/ontology/repository/SingleRepository>;
+    <http://linkedpipes.com/ontology/rdfRepositoryType> <http://linkedpipes.com/ontology/repository/NativeStore> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/10> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/64>;
+    <http://linkedpipes.com/ontology/template> <{HOST_IP}:32800/resources/components/1563183990851-e8b71d93-b34f-4496-a659-6744b2d8964f>;
+    <http://linkedpipes.com/ontology/x> 2234;
+    <http://linkedpipes.com/ontology/y> 36;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Generate RDF file" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/11> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/69>;
+    <http://linkedpipes.com/ontology/template> <{HOST_IP}:32800/resources/components/1563184030887-9ee5ea5e-b68f-40c5-a1ad-c3c5b3df782b>;
+    <http://linkedpipes.com/ontology/x> 2216;
+    <http://linkedpipes.com/ontology/y> -122;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Select WordNet concepts" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/12> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/58>;
+    <http://linkedpipes.com/ontology/template> <{HOST_IP}:32800/resources/components/1563183807292-ea69481c-32eb-4e2c-80ca-16d77313f444>;
+    <http://linkedpipes.com/ontology/x> 1986;
+    <http://linkedpipes.com/ontology/y> 128;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Store data in Ozwillo GraphDB" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/13> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/65>;
+    <http://linkedpipes.com/ontology/template> <{HOST_IP}:32800/resources/components/1563184001462-0515618c-dbb6-49da-8a2b-7be9a8a09afc>;
+    <http://linkedpipes.com/ontology/x> 1918;
+    <http://linkedpipes.com/ontology/y> -32;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Find concepts in WordNet" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/14> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/59>;
+    <http://linkedpipes.com/ontology/template> <{HOST_IP}:32800/resources/components/1563183990851-e8b71d93-b34f-4496-a659-6744b2d8964f>;
+    <http://linkedpipes.com/ontology/x> 2768;
+    <http://linkedpipes.com/ontology/y> -122;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Generate RDF file" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/15> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/60>;
+    <http://linkedpipes.com/ontology/template> <{HOST_IP}:32800/resources/components/1563183979663-3f255670-c4a5-41b3-9a76-d31048dccd8d>;
+    <http://linkedpipes.com/ontology/x> 1605;
+    <http://linkedpipes.com/ontology/y> -100;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Select extracted concepts" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/16> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/67>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/e-filesFromLocal/0.0.0>;
+    <http://linkedpipes.com/ontology/x> 1979;
+    <http://linkedpipes.com/ontology/y> 280;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Load SHACL shapes file" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/17> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/graph/62>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/e-pipelineInput/0.0.0>;
+    <http://linkedpipes.com/ontology/x> 300;
+    <http://linkedpipes.com/ontology/y> -60;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Pipeline input" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/18> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/63>;
+    <http://linkedpipes.com/ontology/template> <{HOST_IP}:32800/resources/components/1563183990851-e8b71d93-b34f-4496-a659-6744b2d8964f>;
+    <http://linkedpipes.com/ontology/x> 1552;
+    <http://linkedpipes.com/ontology/y> 222;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Generate RDF file" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/19> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/53>;
+    <http://linkedpipes.com/ontology/template> <{HOST_IP}:32800/resources/components/1563183807292-ea69481c-32eb-4e2c-80ca-16d77313f444>;
+    <http://linkedpipes.com/ontology/x> 2502;
+    <http://linkedpipes.com/ontology/y> 29;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Store data in Ozwillo GraphDB" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/20> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/graph/71>;
+    <http://linkedpipes.com/ontology/template> <{HOST_IP}:32800/resources/components/1563184037597-690f4f1f-9c94-4196-884f-881e89680051>;
+    <http://linkedpipes.com/ontology/x> 2493;
+    <http://linkedpipes.com/ontology/y> -122;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Find synonyms in WordNet" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/21> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/68>;
+    <http://linkedpipes.com/ontology/template> <{HOST_IP}:32800/resources/components/1563183807292-ea69481c-32eb-4e2c-80ca-16d77313f444>;
+    <http://linkedpipes.com/ontology/x> 2974;
+    <http://linkedpipes.com/ontology/y> 18;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Store data in Ozwillo GraphDB" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/22> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/graph/73>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/t-shaclValidator/0.0.0>;
+    <http://linkedpipes.com/ontology/x> 2340;
+    <http://linkedpipes.com/ontology/y> 213;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "SHACL Validator" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/23> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/graph/75>;
+    <http://linkedpipes.com/ontology/template> <{HOST_IP}:32800/resources/components/1563183926701-84f3fb70-a598-4745-a27d-92e8ef3fc6d2>;
+    <http://linkedpipes.com/ontology/x> 1140;
+    <http://linkedpipes.com/ontology/y> 20;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Eliminate blank nodes" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/24> a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputFile";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/10>;
+    <http://linkedpipes.com/ontology/targetBinding> "InputFiles";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/19> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/26> a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "FilesOutput";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/17>;
+    <http://linkedpipes.com/ontology/targetBinding> "InputFiles";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/9>;
+    <http://linkedpipes.com/ontology/vertex> <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/2e9e-bb7a>,
+      <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/1fad-abd8> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/9> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/66>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/t-socatelExternalDataTransformer/0.0.0>;
+    <http://linkedpipes.com/ontology/x> 460;
+    <http://linkedpipes.com/ontology/y> 0;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "SoCaTel External Source Transformer" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/2e9e-bb7a> a <http://linkedpipes.com/ontology/Vertex>;
+    <http://linkedpipes.com/ontology/order> 1;
+    <http://linkedpipes.com/ontology/x> 500;
+    <http://linkedpipes.com/ontology/y> -40 .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/1fad-abd8> a <http://linkedpipes.com/ontology/Vertex>;
+    <http://linkedpipes.com/ontology/order> 2;
+    <http://linkedpipes.com/ontology/x> 380;
+    <http://linkedpipes.com/ontology/y> 20 .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/29> a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputFiles";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/11>;
+    <http://linkedpipes.com/ontology/targetBinding> "InputFiles";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/20> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/3> a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputFiles";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/4>;
+    <http://linkedpipes.com/ontology/targetBinding> "InputFiles";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/5>;
+    <http://linkedpipes.com/ontology/vertex> <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/da26-9211>,
+      <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/0728-9407>, <http://localhost:32800/resources/pipelines/1565080262463/vertex/9664-b805> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/4> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/graph/55>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/t-jsonToJsonLd/0.0.0>;
+    <http://linkedpipes.com/ontology/x> 800;
+    <http://linkedpipes.com/ontology/y> 120;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Add JSON-LD context" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/5> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/graph/57>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/t-filesToRdfGraph/0.0.0>;
+    <http://linkedpipes.com/ontology/x> 860;
+    <http://linkedpipes.com/ontology/y> -80;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Convert JSON-LD to RDF" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/da26-9211> a <http://linkedpipes.com/ontology/Vertex>;
+    <http://linkedpipes.com/ontology/order> 1;
+    <http://linkedpipes.com/ontology/x> 1020;
+    <http://linkedpipes.com/ontology/y> 100 .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/0728-9407> a <http://linkedpipes.com/ontology/Vertex>;
+    <http://linkedpipes.com/ontology/order> 2;
+    <http://linkedpipes.com/ontology/x> 960;
+    <http://linkedpipes.com/ontology/y> 80 .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/9664-b805> a <http://linkedpipes.com/ontology/Vertex>;
+    <http://linkedpipes.com/ontology/order> 3;
+    <http://linkedpipes.com/ontology/x> 800;
+    <http://linkedpipes.com/ontology/y> 20 .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/30> a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputRdf";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/13>;
+    <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/11> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/31> a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputFiles";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/9>;
+    <http://linkedpipes.com/ontology/targetBinding> "InputFiles";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/4>;
+    <http://linkedpipes.com/ontology/vertex> <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/d3da-90bb>,
+      <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/4f79-a74f> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/d3da-90bb> a <http://linkedpipes.com/ontology/Vertex>;
+    <http://linkedpipes.com/ontology/order> 1;
+    <http://linkedpipes.com/ontology/x> 800;
+    <http://linkedpipes.com/ontology/y> 80 .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/4f79-a74f> a <http://linkedpipes.com/ontology/Vertex>;
+    <http://linkedpipes.com/ontology/order> 2;
+    <http://linkedpipes.com/ontology/x> 680;
+    <http://linkedpipes.com/ontology/y> 120 .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/34> a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputRdf";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/23>;
+    <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/15> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/35> a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputRdf";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/5>;
+    <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/23>;
+    <http://linkedpipes.com/ontology/vertex> <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/00b6-8352>,
+      <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/1887-ae8b> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/00b6-8352> a <http://linkedpipes.com/ontology/Vertex>;
+    <http://linkedpipes.com/ontology/order> 1;
+    <http://linkedpipes.com/ontology/x> 1180;
+    <http://linkedpipes.com/ontology/y> -40 .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/1887-ae8b> a <http://linkedpipes.com/ontology/Vertex>;
+    <http://linkedpipes.com/ontology/order> 2;
+    <http://linkedpipes.com/ontology/x> 1060;
+    <http://linkedpipes.com/ontology/y> 20 .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/38> a <http://linkedpipes.com/ontology/RunAfter>;
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/22>;
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/12> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/39> a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputRdf";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/20>;
+    <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/14> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/40> a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputRdf";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/23>;
+    <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/18> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/41> a <http://linkedpipes.com/ontology/RunAfter>;
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/12>;
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/15> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/42> a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputFile";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/18>;
+    <http://linkedpipes.com/ontology/targetBinding> "DataFile";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/22> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/43> a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputFile";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/14>;
+    <http://linkedpipes.com/ontology/targetBinding> "InputFiles";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/21>;
+    <http://linkedpipes.com/ontology/vertex> <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/3c41-b2b6>,
+      <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/a3e6-b661> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/3c41-b2b6> a <http://linkedpipes.com/ontology/Vertex>;
+    <http://linkedpipes.com/ontology/order> 1;
+    <http://linkedpipes.com/ontology/x> 2995;
+    <http://linkedpipes.com/ontology/y> -61 .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/vertex/a3e6-b661> a <http://linkedpipes.com/ontology/Vertex>;
+    <http://linkedpipes.com/ontology/order> 2;
+    <http://linkedpipes.com/ontology/x> 2860;
+    <http://linkedpipes.com/ontology/y> 8 .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/47> a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputRdf";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/13>;
+    <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/10> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/49> a <http://linkedpipes.com/ontology/RunAfter>;
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/19>;
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/11> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/50> a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputFiles";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/15>;
+    <http://linkedpipes.com/ontology/targetBinding> "InputFiles";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/13> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/51> a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "FilesOutput";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/16>;
+    <http://linkedpipes.com/ontology/targetBinding> "ShapesFile";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/22> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/52> a <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputFile";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/18>;
+    <http://linkedpipes.com/ontology/targetBinding> "InputFiles";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/12> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/component/23b7-b77b> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/component/23b7-b77b/configuration>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/t-sparqlConstruct/0.0.0>;
+    <http://linkedpipes.com/ontology/x> 1514;
+    <http://linkedpipes.com/ontology/y> 608;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Construct duplicates RDF graph" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/component/25fd-83a3> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/component/25fd-83a3/configuration>;
+    <http://linkedpipes.com/ontology/template> <{HOST_IP}:32800/resources/components/1579171961878-46446857-046d-4d9a-a65e-9e69c94ad4a7>;
+    <http://linkedpipes.com/ontology/x> 1871;
+    <http://linkedpipes.com/ontology/y> 603;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Generate duplicates RDF file" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/component/4a9f-9d23> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/component/4a9f-9d23/configuration>;
+    <http://linkedpipes.com/ontology/template> <{HOST_IP}:32800/resources/components/1579172060031-4a61f401-9ac6-4e65-b775-3f90155dc587>;
+    <http://linkedpipes.com/ontology/x> 1873;
+    <http://linkedpipes.com/ontology/y> 443;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Generate config RDF graph" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/component/4f05-89fb> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/component/4f05-89fb/configuration>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/x-httpRequest/0.0.0>;
+    <http://linkedpipes.com/ontology/x> 2170;
+    <http://linkedpipes.com/ontology/y> 415;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Remove duplicates HTTP request" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/component/9da5-8056> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/component/9da5-8056/configuration>;
+    <http://linkedpipes.com/ontology/template> <{HOST_IP}:32800/resources/components/1579172023104-903e3861-ebc9-4912-9e1f-10cf4dce3f59>;
+    <http://linkedpipes.com/ontology/x> 1524;
+    <http://linkedpipes.com/ontology/y> 470;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Remove duplicates request config" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/component/ca56-b2b3> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1565080262463/component/ca56-b2b3/configuration>;
+    <http://linkedpipes.com/ontology/template> <{HOST_IP}:32800/resources/components/1579171996240-75d97b6d-4262-4bac-b723-f8be68c8124f>;
+    <http://linkedpipes.com/ontology/x> 2190;
+    <http://linkedpipes.com/ontology/y> 598;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Store duplicates in Ozwillo GraphDB" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/connection/101d-800d> a
+      <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "FilesOutput";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/component/9da5-8056>;
+    <http://linkedpipes.com/ontology/targetBinding> "InputFiles";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/component/4a9f-9d23> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/connection/14f8-9377> a
+      <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputRdf";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/component/23b7-b77b>;
+    <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/component/25fd-83a3> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/connection/3c7d-926a> a
+      <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputRdf";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/23>;
+    <http://linkedpipes.com/ontology/targetBinding> "InputRdf";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/component/23b7-b77b> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/connection/6e10-874d> a
+      <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputRdf";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/component/4a9f-9d23>;
+    <http://linkedpipes.com/ontology/targetBinding> "Task";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/component/4f05-89fb> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/connection/7acf-8033> a
+      <http://linkedpipes.com/ontology/RunAfter>;
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/component/4f05-89fb>;
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/18> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/connection/bb81-8962> a
+      <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "OutputFile";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/component/25fd-83a3>;
+    <http://linkedpipes.com/ontology/targetBinding> "InputFiles";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/component/ca56-b2b3> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/connection/e516-9b10> a
+      <http://linkedpipes.com/ontology/RunAfter>;
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/component/ca56-b2b3>;
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1565080262463/component/9da5-8056> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/53> {
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/53> a <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#authentification>
+      true;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#authentificationControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#checkSize> false;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#checkSizeControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#endpoint> "{GRAPHDB_REPO_URI}rdf-graphs/service";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#endpointControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#endpointSelectControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#graph> "http://www.everis.es/SoCaTel/ontology#";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#graphControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#password> "{GRAPHDB_PWD}";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#passwordControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#replace> false;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#replaceControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#repository> "GRAPHDB";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#repositoryControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#user> "{GRAPHDB_USER}";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#userControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/58> {
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/58> a <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#authentification>
+      true;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#authentificationControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#checkSize> false;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#checkSizeControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#endpoint> "{GRAPHDB_REPO_URI}rdf-graphs/service";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#endpointControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#endpointSelectControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#graph> "http://www.everis.es/SoCaTel/ontology#";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#graphControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#password> "{GRAPHDB_PWD}";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#passwordControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#replace> false;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#replaceControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#repository> "GRAPHDB";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#repositoryControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#user> "{GRAPHDB_USER}";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#userControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/59> {
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/59> a <http://plugins.linkedpipes.com/ontology/t-rdfToFile#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileName> "rdfOutput.ttl";
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileNameControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileType> "text/turtle";
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileTypeControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#graphUri> <http://www.everis.es/SoCaTel/ontology#>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#graphUriControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/60> {
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/15/configuration> a <http://plugins.linkedpipes.com/ontology/t-sparqlSelect#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlSelect#fileName> "concepts.csv";
+    <http://plugins.linkedpipes.com/ontology/t-sparqlSelect#fileNameControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlSelect#query> """PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?inputConcept ?inputLabel
+WHERE {
+  ?inputConcept rdf:type skos:Concept .
+  ?inputConcept skos:prefLabel ?inputLabel .
+}""";
+    <http://plugins.linkedpipes.com/ontology/t-sparqlSelect#queryControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/63> {
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/63> a <http://plugins.linkedpipes.com/ontology/t-rdfToFile#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileName> "rdfOutput.ttl";
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileNameControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileType> "text/turtle";
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileTypeControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#graphUri> <http://www.everis.es/SoCaTel/ontology#>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#graphUriControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/64> {
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/64> a <http://plugins.linkedpipes.com/ontology/t-rdfToFile#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileName> "rdfOutput.ttl";
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileNameControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileType> "text/turtle";
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileTypeControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#graphUri> <http://www.everis.es/SoCaTel/ontology#>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#graphUriControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/65> {
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/65> a <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#defaultGraphControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#delimiter>
+      ",";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#delimiterControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#encodeRdf>
+      false;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#encodeRdfControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#encoding>
+      "UTF-8";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#encodingControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#endpoint>
+      "http://factforge.net/repositories/ff-news";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#endpointControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#handleInvalidData>
+      false;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#handleInvalidDataControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#headerAcceptControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#password>
+      "{GRAPHDB_PWD}";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#passwordControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#query> """PREFIX onto: <http://www.ontotext.com/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+prefix wn: <http://wordnet-rdf.princeton.edu/ontology#>
+
+CONSTRUCT {
+  <?inputConcept> skos:closeMatch ?word .
+  ?word rdf:type skos:Concept .
+  ?word skos:definition ?def .
+  ?word skos:prefLabel ?label . 
+  ?word skos:altLabel ?spaTrans .  
+  ?word skos:altLabel ?finTrans .  
+  ?word skos:altLabel ?hunTrans
+}
+FROM onto:disable-sameAs
+WHERE {
+    ?word rdf:type wn:Synset .
+    ?word rdfs:label ?label .
+    ?word wn:translation ?trans .
+    OPTIONAL { ?word wn:gloss ?def . }
+    OPTIONAL { ?word wn:translation ?spaTrans .
+        FILTER (LANGMATCHES(LANG(?spaTrans), \"spa\"))
+    		 } .
+    OPTIONAL { ?word wn:translation ?finTrans .
+        FILTER (LANGMATCHES(LANG(?finTrans), \"fin\"))
+    		 } .
+    OPTIONAL { ?word wn:translation ?hunTrans .
+        FILTER (LANGMATCHES(LANG(?hunTrans), \"hun\"))
+    		 } .
+    FILTER (REGEX(STR(?label), \"?inputLabel\", \"i\") || REGEX(STR(?trans), \"?inputLabel\", \"i\"))
+
+} LIMIT 1000""";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#queryControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#quoteChar>
+      "\"";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#quoteCharControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#useAuthentication>
+      false;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#useAuthenticationControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#useTolerantRepository>
+      false;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#useTolerantRepositoryControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#userName>
+      "{GRAPHDB_USER}";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#userNameControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/66> {
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/9/configuration> a <http://plugins.linkedpipes.com/ontology/t-socatelExternalDataTransformer#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-socatelExternalDataTransformer#arrayRootPath>
+      "";
+    <http://plugins.linkedpipes.com/ontology/t-socatelExternalDataTransformer#arrayRootPathControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-socatelExternalDataTransformer#dataSource>
+      "SOCATEL_SERVICE";
+    <http://plugins.linkedpipes.com/ontology/t-socatelExternalDataTransformer#dataSourceControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-socatelExternalDataTransformer#singleArray>
+      "ARRAY";
+    <http://plugins.linkedpipes.com/ontology/t-socatelExternalDataTransformer#singleArrayControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-socatelExternalDataTransformer#singleRootPath>
+      "";
+    <http://plugins.linkedpipes.com/ontology/t-socatelExternalDataTransformer#singleRootPathControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/67> {
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/67> a <http://plugins.linkedpipes.com/ontology/e-filesFromLocal#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/e-filesFromLocal#path> "./data/shapes/opendataShapes.ttl";
+    <http://plugins.linkedpipes.com/ontology/e-filesFromLocal#pathControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/68> {
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/68> a <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#authentification>
+      true;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#authentificationControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#checkSize> false;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#checkSizeControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#endpoint> "{GRAPHDB_REPO_URI}rdf-graphs/service";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#endpointControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#endpointSelectControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#graph> "http://www.everis.es/SoCaTel/ontology#";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#graphControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#password> "{GRAPHDB_PWD}";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#passwordControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#replace> false;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#replaceControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#repository> "GRAPHDB";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#repositoryControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#user> "{GRAPHDB_USER}";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#userControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/69> {
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/69> a <http://plugins.linkedpipes.com/ontology/t-sparqlSelect#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlSelect#fileName> "wordnetConcepts.csv";
+    <http://plugins.linkedpipes.com/ontology/t-sparqlSelect#fileNameControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlSelect#query> """PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?inputConcept ?inputLabel
+WHERE {
+  ?inputConcept rdf:type skos:Concept .
+  ?inputConcept skos:prefLabel ?inputLabel .
+}""";
+    <http://plugins.linkedpipes.com/ontology/t-sparqlSelect#queryControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/component/23b7-b77b/configuration> {
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/component/23b7-b77b/configuration>
+    a <http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query> """PREFIX socatel: <http://www.everis.es/SoCaTel/ontology#>
+PREFIX sioc: <http://rdfs.org/sioc/ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gn: <http://www.geonames.org/ontology#>
+PREFIX wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+
+CONSTRUCT {
+  ?s ?p ?o
+} 
+WHERE {
+    {
+        SELECT ?s ?p ?o 
+        WHERE {
+          ?s a socatel:Service .
+          ?s ?p ?o .
+          VALUES ?p { socatel:title socatel:description socatel:creationDate socatel:createdBy socatel:implementedBy socatel:location socatel:num_likes }
+        }
+    }
+    UNION 
+    {
+        SELECT ?s ?p ?o 
+        WHERE {
+          ?s a socatel:Account .
+          ?s ?p ?o .
+          VALUES ?p { socatel:description socatel:title socatel:location socatel:imageLink socatel:num_likes socatel:createdBy socatel:creationDate }
+        }
+    }
+    UNION 
+    {
+        SELECT ?s ?p ?o 
+        WHERE {
+          ?s a gn:Feature .
+          ?s ?p ?o .
+          VALUES ?p { wgs84_pos:long wgs84_pos:lat gn:countryCode  }
+        }
+    }
+}""";
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/component/25fd-83a3/configuration> {
+  <{HOST_IP}:32800/resources/components/1579171961878-46446857-046d-4d9a-a65e-9e69c94ad4a7/new/1>
+    a <http://plugins.linkedpipes.com/ontology/t-rdfToFile#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileName> "duplicates.ttl";
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileNameControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileType> "text/turtle";
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileTypeControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#graphUri> <http://www.everis.es/SoCaTel/ontology/duplicates#>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#graphUriControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/component/4a9f-9d23/configuration> {
+  <{HOST_IP}:32800/resources/components/1579172060031-4a61f401-9ac6-4e65-b775-3f90155dc587/new/1>
+    a <http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#commitSize> 50000;
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#commitSizeControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#mimeType> "";
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#mimeTypeControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#softFail> false;
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#softFailControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/component/4f05-89fb/configuration> {
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/component/4f05-89fb/configuration>
+    a <http://plugins.linkedpipes.com/ontology/x-httpRequest#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/x-httpRequest#encodeUrl> false;
+    <http://plugins.linkedpipes.com/ontology/x-httpRequest#encodeUrlControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/x-httpRequest#followRedirect> false;
+    <http://plugins.linkedpipes.com/ontology/x-httpRequest#followRedirectControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/x-httpRequest#skipOnError> false;
+    <http://plugins.linkedpipes.com/ontology/x-httpRequest#skipOnErrorControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/x-httpRequest#threads> 1;
+    <http://plugins.linkedpipes.com/ontology/x-httpRequest#threadsControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/x-httpRequest#threadsPerGroup> 1;
+    <http://plugins.linkedpipes.com/ontology/x-httpRequest#threadsPerGroupControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/x-httpRequest#timeoutControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/x-httpRequest#utf8Redirect> false;
+    <http://plugins.linkedpipes.com/ontology/x-httpRequest#utf8RedirectControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/component/9da5-8056/configuration> {
+  <{HOST_IP}:32800/resources/components/1579172023104-903e3861-ebc9-4912-9e1f-10cf4dce3f59/new/1>
+    a <http://plugins.linkedpipes.com/ontology/e-textHolder#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/e-textHolder#content> """@prefix req: <http://plugins.linkedpipes.com/ontology/x-httpRequest#> .
+
+<{HOST_IP}:32800/deleteQuery> a req:Task ;
+    req:method \"POST\" ;
+    req:header <{HOST_IP}:32800/deleteQuery/auth> ;
+    req:url \"{GRAPHDB_REPO_URI}statements?update=DELETE%20%7B%0A%20%20%20%20GRAPH%20%3Fg%20%7B%0A%20%20%20%20%20%20%3Fs%20%3Fp%20%3Fo1%20.%0A%20%20%20%20%7D%0A%7D%0A%0AWHERE%20%7B%0A%20%20%20%20GRAPH%20%3Fg%20%7B%0A%20%20%20%20%20%20%20%20%3Fs%20%3Fp%20%3Fo1%20.%0A%20%20%20%20%7D%0A%20%20%20%20GRAPH%20%3Chttp%3A%2F%2Fwww.everis.es%2FSoCaTel%2Fontology%2Fduplicates%23%3E%20%7B%0A%20%20%20%20%20%20%20%20%3Fs%20%3Fp%20%3Fo2%20.%0A%20%20%20%20%7D%0A%7D\" .
+
+<{HOST_IP}:32800/deleteQuery/auth> a req:Header ;
+    req:name \"Authorization\" ;
+    req:value \"Basic Base64({GRAPHDB_USER}:{GRAPHDB_PWD})\" .""";
+    <http://plugins.linkedpipes.com/ontology/e-textHolder#contentControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-textHolder#fileName> "removeDuplicatesRequest.ttl";
+    <http://plugins.linkedpipes.com/ontology/e-textHolder#fileNameControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/component/ca56-b2b3/configuration> {
+  <{HOST_IP}:32800/resources/components/1579171996240-75d97b6d-4262-4bac-b723-f8be68c8124f/new/1>
+    a <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#authentification>
+      true;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#authentificationControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#checkSize> false;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#checkSizeControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#endpoint> "{GRAPHDB_REPO_URI}rdf-graphs/service";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#endpointControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#endpointSelectControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#graph> "http://www.everis.es/SoCaTel/ontology/duplicates#";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#graphControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#password> "{GRAPHDB_PWD}";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#passwordControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#replace> false;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#replaceControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#repository> "GRAPHDB";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#repositoryControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#user> "{GRAPHDB_USER}";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#userControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/graph/55> {
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/4/configuration> a <http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#context> """{    
+    \"xsd\": \"http://www.w3.org/2001/XMLSchema#\",
+    \"socatel\": \"http://www.everis.es/SoCaTel/ontology#\",
+    \"foaf\": \"http://xmlns.com/foaf/0.1/\",
+    \"gn\": \"http://www.geonames.org/ontology#\",
+    \"skos\": \"http://www.w3.org/2004/02/skos/core#\",
+
+    \"id\" : {
+      \"@id\" : \"socatel:identifier\",
+      \"@type\" : \"xsd:string\"
+    },
+    \"name\" : {
+      \"@id\" : \"socatel:title\",
+      \"@type\" : \"xsd:string\"
+    },
+    \"description\" : {
+      \"@id\" : \"socatel:description\",
+      \"@type\" : \"xsd:string\"
+    },
+    \"language\" : {
+      \"@id\" : \"socatel:language\",
+      \"@type\" : \"xsd:string\"
+    },
+    \"website\" : {
+      \"@id\" : \"socatel:webLink\",
+      \"@type\" : \"@id\"
+    },
+    \"hashtag\" : {
+      \"@id\" : \"socatel:topic\",
+      \"@type\" : \"@id\"
+    },
+
+    \"themes\" : {
+      \"@id\" : \"socatel:topic\",
+      \"@type\" : \"@id\"
+    },
+    \"label\" : {
+      \"@id\" : \"skos:prefLabel\",
+      \"@type\" : \"xsd:string\"
+    },
+
+    \"location\" : {
+      \"@id\" : \"socatel:location\",
+      \"@type\" : \"@id\"
+    },
+    \"placeName\" : {
+      \"@id\" : \"gn:name\",
+      \"@type\" : \"xsd:string\"
+    },
+
+    \"implementedBy\" : {
+      \"@id\" : \"socatel:implementedBy\",
+      \"@type\" : \"@id\"
+    },
+
+    \"accounts\" : {
+      \"@id\" : \"socatel:hasAccount\",
+      \"@type\" : \"@id\"
+    },
+    \"screen_name\" : {
+      \"@id\" : \"socatel:title\",
+      \"@type\" : \"xsd:string\"
+    }
+  }""";
+    <http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#contextControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#dataPredicateControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#encoding> "UTF-8";
+    <http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#encodingControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#filePredicate> <http://localhost/ontology/filePredicate>;
+    <http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#filePredicateControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#fileReference> false;
+    <http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#fileReferenceControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#typeControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/graph/57> {
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/56> a <http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#commitSize> 50000;
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#commitSizeControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#mimeType> "application/ld+json";
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#mimeTypeControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#softFail> false;
+    <http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#softFailControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/graph/62> {
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/61> a <http://plugins.linkedpipes.com/ontology/e-pipelineInput#Configuration> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/graph/71> {
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/70> a <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#defaultGraphControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#delimiter>
+      ",";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#delimiterControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#encodeRdf>
+      false;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#encodeRdfControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#encoding>
+      "UTF-8";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#encodingControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#endpoint>
+      "http://factforge.net/repositories/ff-news";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#endpointControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#handleInvalidData>
+      false;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#handleInvalidDataControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#headerAcceptControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#password>
+      "{GRAPHDB_PWD}";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#passwordControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#query> """PREFIX onto: <http://www.ontotext.com/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+prefix wn: <http://wordnet-rdf.princeton.edu/ontology#>
+
+CONSTRUCT {
+  <?inputConcept> skos:closeMatch ?syn .
+  ?syn rdf:type skos:Concept .
+  ?syn skos:definition ?synDef .
+  ?syn skos:prefLabel ?label . 
+  ?syn skos:altLabel ?spaTrans .  
+  ?syn skos:altLabel ?finTrans .  
+  ?syn skos:altLabel ?hunTrans
+}
+
+FROM onto:disable-sameAs
+WHERE {
+    <?inputConcept> wn:synset_member ?synset .
+    ?syn wn:synset_member ?synset .
+    ?syn rdfs:label ?label .
+    OPTIONAL {?syn wn:gloss ?synDef } .
+    OPTIONAL { ?syn wn:translation ?spaTrans .
+        FILTER (LANGMATCHES(LANG(?spaTrans), \"spa\"))
+             } .
+    OPTIONAL { ?syn wn:translation ?finTrans .
+        FILTER (LANGMATCHES(LANG(?finTrans), \"fin\"))
+             } .
+    OPTIONAL { ?syn wn:translation ?hunTrans .
+        FILTER (LANGMATCHES(LANG(?hunTrans), \"hun\"))
+             } .
+  
+    FILTER (?syn != <?inputConcept>)
+
+} LIMIT 1000""";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#queryControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#quoteChar>
+      "\"";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#quoteCharControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#useAuthentication>
+      false;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#useAuthenticationControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#useTolerantRepository>
+      false;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#useTolerantRepositoryControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#userName>
+      "{GRAPHDB_USER}";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#userNameControl>
+      <http://plugins.linkedpipes.com/resource/configuration/Inherit> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/graph/73> {
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/72> a <http://plugins.linkedpipes.com/ontology/t-shaclValidator#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-shaclValidator#failOnError> false;
+    <http://plugins.linkedpipes.com/ontology/t-shaclValidator#failOnErrorControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1565080262463/graph/75> {
+  <{HOST_IP}:32800/resources/pipelines/1565080262463/74> a <http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query> """CONSTRUCT { ?s ?p ?o } 
+WHERE { ?s ?p ?o
+  FILTER (!isBlank(?s) && !isBlank(?o))
+}""";
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl> <http://plugins.linkedpipes.com/resource/configuration/Inherit> .
+}

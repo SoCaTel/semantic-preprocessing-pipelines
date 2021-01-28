@@ -1,0 +1,49 @@
+@prefix config: <http://plugins.linkedpipes.com/ontology/configuration/> .
+
+<http://linkedpipes.com/resources/components/l-couchDb/0.0.0/configuration/desc>
+    a <http://plugins.linkedpipes.com/ontology/ConfigurationDescription> ;
+    config:type <http://plugins.linkedpipes.com/ontology/l-couchDb#Configuration> ;
+    config:member <http://linkedpipes.com/resources/components/l-couchDb/0.0.0/configuration/desc/url> ,
+        <http://linkedpipes.com/resources/components/l-couchDb/0.0.0/configuration/desc/database> ,
+        <http://linkedpipes.com/resources/components/l-couchDb/0.0.0/configuration/desc/clearBeforeLoading> ,
+        <http://linkedpipes.com/resources/components/l-couchDb/0.0.0/configuration/desc/batchSize> ,
+        <http://linkedpipes.com/resources/components/l-couchDb/0.0.0/configuration/desc/useAuthentication> ,
+        <http://linkedpipes.com/resources/components/l-couchDb/0.0.0/configuration/desc/userName> ,
+        <http://linkedpipes.com/resources/components/l-couchDb/0.0.0/configuration/desc/password> .
+
+<http://linkedpipes.com/resources/components/l-couchDb/0.0.0/configuration/desc/url>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/l-couchDb#url> ;
+    config:control <http://plugins.linkedpipes.com/ontology/l-couchDb#urlControl> .
+
+<http://linkedpipes.com/resources/components/l-couchDb/0.0.0/configuration/desc/database>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/l-couchDb#database> ;
+    config:control <http://plugins.linkedpipes.com/ontology/l-couchDb#databaseControl> .
+
+<http://linkedpipes.com/resources/components/l-couchDb/0.0.0/configuration/desc/clearBeforeLoading>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/l-couchDb#clearBeforeLoading> ;
+    config:control <http://plugins.linkedpipes.com/ontology/l-couchDb#clearBeforeLoadingControl> .
+
+<http://linkedpipes.com/resources/components/l-couchDb/0.0.0/configuration/desc/batchSize>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/l-couchDb#batchSize> ;
+    config:control <http://plugins.linkedpipes.com/ontology/l-couchDb#batchSizeControl> .
+
+<http://linkedpipes.com/resources/components/l-couchDb/0.0.0/configuration/desc/useAuthentication>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/l-couchDb#useAuthentication> ;
+    config:control <http://plugins.linkedpipes.com/ontology/l-couchDb#useAuthenticationControl> .
+
+<http://linkedpipes.com/resources/components/l-couchDb/0.0.0/configuration/desc/userName>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/l-couchDb#userName> ;
+    config:control <http://plugins.linkedpipes.com/ontology/l-couchDb#userNameControl> ;
+    config:private true .
+
+<http://linkedpipes.com/resources/components/l-couchDb/0.0.0/configuration/desc/password>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/l-couchDb#password> ;
+    config:control <http://plugins.linkedpipes.com/ontology/l-couchDb#passwordControl> ;
+    config:private true .

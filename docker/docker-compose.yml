@@ -1,0 +1,17 @@
+version: '3'
+services:
+  linkedpipes_etl:
+    image: socatel/backend/linkedpipes:1.0
+    container_name: socatel-linkedpipes
+    build: ../
+    ports:
+      - "32850:32850"
+      - "32810:32810"
+      - "32830:32830"
+      - "32800:32800"
+      - "22210:22210" # This should be an FTP port to debug pipeline executions (not relevant at the moment).
+    command: ["/bin/bash", "/lp/linkedpipes.sh"]
+networks:
+  default:
+    external:
+      name: socatel-network

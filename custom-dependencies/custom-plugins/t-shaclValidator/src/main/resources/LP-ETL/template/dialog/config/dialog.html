@@ -1,0 +1,9 @@
+<lp-dialog-control-config lp-dialog="dialog" lp-application="application"></lp-dialog-control-config>
+<div>
+    <md-switch ng-model="dialog.failOnError.value"
+               ng-hide="dialog.failOnError.hide"
+               ng-disabled="dialog.failOnError.disabled || dialog.failOnError.inherit">
+        Fail component on validation error
+        <md-tooltip>Halt component execution if data does not conform to SHACL shape</md-tooltip>
+    </md-switch>
+</div>

@@ -1,0 +1,17 @@
+
+<{HOST_IP}:32800/resources/components/1563183979663-3f255670-c4a5-41b3-9a76-d31048dccd8d/configuration> {
+  <{HOST_IP}:32800/resources/components/1563183979663-3f255670-c4a5-41b3-9a76-d31048dccd8d/configuration/0>
+    a <http://plugins.linkedpipes.com/ontology/t-sparqlSelect#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlSelect#fileName> "concepts.csv";
+    <http://plugins.linkedpipes.com/ontology/t-sparqlSelect#fileNameControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlSelect#query> """PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?inputConcept ?inputLabel
+WHERE {
+  ?inputConcept rdf:type skos:Concept .
+  ?inputConcept skos:prefLabel ?inputLabel .
+}""";
+    <http://plugins.linkedpipes.com/ontology/t-sparqlSelect#queryControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
+}

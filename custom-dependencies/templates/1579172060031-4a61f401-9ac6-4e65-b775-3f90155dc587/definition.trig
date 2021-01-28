@@ -1,0 +1,7 @@
+
+<{HOST_IP}:32800/resources/components/1579172060031-4a61f401-9ac6-4e65-b775-3f90155dc587> {
+  <{HOST_IP}:32800/resources/components/1579172060031-4a61f401-9ac6-4e65-b775-3f90155dc587>
+    a <http://linkedpipes.com/ontology/Template>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/t-filesToRdfGraph/0.0.0>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/components/1579172060031-4a61f401-9ac6-4e65-b775-3f90155dc587/configuration> .
+}

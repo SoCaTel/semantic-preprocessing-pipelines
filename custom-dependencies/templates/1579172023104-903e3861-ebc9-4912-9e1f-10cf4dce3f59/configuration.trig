@@ -1,0 +1,18 @@
+
+<{HOST_IP}:32800/resources/components/1579172023104-903e3861-ebc9-4912-9e1f-10cf4dce3f59/configuration> {
+  <{HOST_IP}:32800/resources/components/1579172023104-903e3861-ebc9-4912-9e1f-10cf4dce3f59/configuration/0>
+    a <http://plugins.linkedpipes.com/ontology/e-textHolder#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/e-textHolder#content> """@prefix req: <http://plugins.linkedpipes.com/ontology/x-httpRequest#> .
+
+<{HOST_IP}:32800/deleteQuery> a req:Task ;
+    req:method \"POST\" ;
+    req:header <{HOST_IP}:32800/deleteQuery/auth> ;
+    req:url \"{GRAPHDB_REPO_URI}statements?update=DELETE%20%7B%0A%20%20%20%20GRAPH%20%3Fg%20%7B%0A%20%20%20%20%20%20%3Fs%20%3Fp%20%3Fo1%20.%0A%20%20%20%20%7D%0A%7D%0A%0AWHERE%20%7B%0A%20%20%20%20GRAPH%20%3Fg%20%7B%0A%20%20%20%20%20%20%20%20%3Fs%20%3Fp%20%3Fo1%20.%0A%20%20%20%20%7D%0A%20%20%20%20GRAPH%20%3Chttp%3A%2F%2Fwww.everis.es%2FSoCaTel%2Fontology%2Fduplicates%23%3E%20%7B%0A%20%20%20%20%20%20%20%20%3Fs%20%3Fp%20%3Fo2%20.%0A%20%20%20%20%7D%0A%7D\" .
+
+<{HOST_IP}:32800/deleteQuery/auth> a req:Header ;
+    req:name \"Authorization\" ;
+    req:value \"Basic Base64({GRAPHDB_USER}:{GRAPHDB_PWD})\" .""";
+    <http://plugins.linkedpipes.com/ontology/e-textHolder#contentControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-textHolder#fileName> "removeDuplicatesRequest.ttl";
+    <http://plugins.linkedpipes.com/ontology/e-textHolder#fileNameControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
+}

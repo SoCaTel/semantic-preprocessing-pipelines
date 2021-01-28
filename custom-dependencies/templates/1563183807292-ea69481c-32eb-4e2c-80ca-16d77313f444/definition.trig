@@ -1,0 +1,7 @@
+
+<{HOST_IP}:32800/resources/components/1563183807292-ea69481c-32eb-4e2c-80ca-16d77313f444> {
+  <{HOST_IP}:32800/resources/components/1563183807292-ea69481c-32eb-4e2c-80ca-16d77313f444>
+    a <http://linkedpipes.com/ontology/Template>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/l-graphStoreProtocolGraphDB/0.0.0>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/components/1563183807292-ea69481c-32eb-4e2c-80ca-16d77313f444/configuration> .
+}

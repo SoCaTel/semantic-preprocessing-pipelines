@@ -1,0 +1,13 @@
+<lp-dialog-control-config lp-dialog="dialog" lp-application="application"></lp-dialog-control-config>
+<div>
+    <md-input-container class="md-block" ng-hide="control.fileName.hide">
+        <label>Output file name</label>
+        <input ng-model="dialog.fileName.value"
+               ng-disabled="dialog.fileName.disabled || dialog.fileName.inherit"
+               placeholder="my.csv">
+    </md-input-container>
+    <md-input-container class="md-block" ng-hide="control.query.hide">
+        SPARQL SELECT query
+        <lp-yasqe ng-model="dialog.query.value" ng-disabled="dialog.query.disabled || dialog.query.inherit"/>
+    </md-input-container>
+</div>

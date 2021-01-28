@@ -1,0 +1,8 @@
+
+<{HOST_IP}:32800/resources/components/1563184001462-0515618c-dbb6-49da-8a2b-7be9a8a09afc> {
+  <{HOST_IP}:32800/resources/components/1563184001462-0515618c-dbb6-49da-8a2b-7be9a8a09afc>
+    a <http://linkedpipes.com/ontology/Template>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/0.0.0>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Find concepts in WordNet";
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/components/1563184001462-0515618c-dbb6-49da-8a2b-7be9a8a09afc/configuration> .
+}

@@ -1,0 +1,29 @@
+@prefix config: <http://plugins.linkedpipes.com/ontology/configuration/> .
+
+<http://linkedpipes.com/resources/components/t-socatelExternalDataTransformer/0.0.0/configuration/desc>
+    a <http://plugins.linkedpipes.com/ontology/ConfigurationDescription> ;
+    config:type <http://plugins.linkedpipes.com/ontology/t-socatelExternalDataTransformer#Configuration> ;
+    config:member <http://linkedpipes.com/resources/components/t-socatelExternalDataTransformer/0.0.0/configuration/desc/dataSource> ,
+        <http://linkedpipes.com/resources/components/t-socatelExternalDataTransformer/0.0.0/configuration/desc/singleArray> ,
+        <http://linkedpipes.com/resources/components/t-socatelExternalDataTransformer/0.0.0/configuration/desc/singleRootPath> ,
+        <http://linkedpipes.com/resources/components/t-socatelExternalDataTransformer/0.0.0/configuration/desc/arrayRootPath> .
+
+<http://linkedpipes.com/resources/components/t-socatelExternalDataTransformer/0.0.0/configuration/desc/dataSource>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/t-socatelExternalDataTransformer#dataSource> ;
+    config:control <http://plugins.linkedpipes.com/ontology/t-socatelExternalDataTransformer#dataSourceControl> .
+
+<http://linkedpipes.com/resources/components/t-socatelExternalDataTransformer/0.0.0/configuration/desc/singleArray>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/t-socatelExternalDataTransformer#singleArray> ;
+    config:control <http://plugins.linkedpipes.com/ontology/t-socatelExternalDataTransformer#singleArrayControl> .
+
+<http://linkedpipes.com/resources/components/t-socatelExternalDataTransformer/0.0.0/configuration/desc/singleRootPath>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/t-socatelExternalDataTransformer#singleRootPath> ;
+    config:control <http://plugins.linkedpipes.com/ontology/t-socatelExternalDataTransformer#singleRootPathControl> .
+
+<http://linkedpipes.com/resources/components/t-socatelExternalDataTransformer/0.0.0/configuration/desc/arrayRootPath>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/t-socatelExternalDataTransformer#arrayRootPath> ;
+    config:control <http://plugins.linkedpipes.com/ontology/t-socatelExternalDataTransformer#arrayRootPathControl> .

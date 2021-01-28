@@ -1,0 +1,86 @@
+
+<{HOST_IP}:32800/resources/components/1563184037597-690f4f1f-9c94-4196-884f-881e89680051/configuration> {
+  <{HOST_IP}:32800/resources/components/1563184037597-690f4f1f-9c94-4196-884f-881e89680051/configuration/0>
+    a <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#defaultGraphControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#delimiter>
+      ",";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#delimiterControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#encodeRdf>
+      false;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#encodeRdfControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#encoding>
+      "UTF-8";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#encodingControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#endpoint>
+      "http://factforge.net/repositories/ff-news";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#endpointControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#handleInvalidData>
+      false;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#handleInvalidDataControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#headerAcceptControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#password>
+      "{GRAPHDB_PWD}";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#passwordControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#query> """PREFIX onto: <http://www.ontotext.com/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+prefix wn: <http://wordnet-rdf.princeton.edu/ontology#>
+
+CONSTRUCT {
+  <?inputConcept> skos:closeMatch ?syn .
+  ?syn rdf:type skos:Concept .
+  ?syn skos:definition ?synDef .
+  ?syn skos:prefLabel ?label . 
+  ?syn skos:altLabel ?spaTrans .  
+  ?syn skos:altLabel ?finTrans .  
+  ?syn skos:altLabel ?hunTrans
+}
+
+FROM onto:disable-sameAs
+WHERE {
+    <?inputConcept> wn:synset_member ?synset .
+    ?syn wn:synset_member ?synset .
+    ?syn rdfs:label ?label .
+    OPTIONAL {?syn wn:gloss ?synDef } .
+    OPTIONAL { ?syn wn:translation ?spaTrans .
+        FILTER (LANGMATCHES(LANG(?spaTrans), \"spa\"))
+             } .
+    OPTIONAL { ?syn wn:translation ?finTrans .
+        FILTER (LANGMATCHES(LANG(?finTrans), \"fin\"))
+             } .
+    OPTIONAL { ?syn wn:translation ?hunTrans .
+        FILTER (LANGMATCHES(LANG(?hunTrans), \"hun\"))
+             } .
+  
+    FILTER (?syn != <?inputConcept>)
+
+} LIMIT 1000""";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#queryControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#quoteChar>
+      "\"";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#quoteCharControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#useAuthentication>
+      false;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#useAuthenticationControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#useTolerantRepository>
+      false;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#useTolerantRepositoryControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#userName>
+      "{GRAPHDB_USER}";
+    <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#userNameControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None> .
+}

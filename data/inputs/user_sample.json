@@ -1,0 +1,301 @@
+[
+    {
+        "user_id": "986d058dfdd2b8d00737862a7a1cebf0",
+        "locality": {
+            "locality_id": 1005,
+            "locality_name": "Tampere",
+            "locality_parent": {
+                "locality_id": 1001,
+                "locality_name": "Finland",
+                "locality_parent": null
+            }
+        },
+        "primary_language": {
+            "language_id": 3,
+            "language_code": "fi",
+            "language_name": "Finnish"
+        },
+        "secondary_language": null,
+        "organisation_id": null,
+        "themes": [],
+        "groups": [],
+        "skills": []
+    },
+    {
+        "user_id": "5e9f1a7d409f9a9570612ad6999f053f",
+        "locality": {
+            "locality_id": 1005,
+            "locality_name": "Tampere",
+            "locality_parent": {
+                "locality_id": 1001,
+                "locality_name": "Finland",
+                "locality_parent": null
+            }
+        },
+        "primary_language": {
+            "language_id": 3,
+            "language_code": "fi",
+            "language_name": "Finnish"
+        },
+        "secondary_language": null,
+        "organisation_id": null,
+        "themes": [],
+        "groups": [
+            {
+                "group_id": 17
+            },
+            {
+                "group_id": 18
+            }
+        ],
+        "skills": []
+    },
+    {
+        "user_id": "4a31e6f3e2671e2dc5cc628d488fec66",
+        "locality": {
+            "locality_id": 1005,
+            "locality_name": "Tampere",
+            "locality_parent": {
+                "locality_id": 1001,
+                "locality_name": "Finland",
+                "locality_parent": null
+            }
+        },
+        "primary_language": {
+            "language_id": 3,
+            "language_code": "fi",
+            "language_name": "Finnish"
+        },
+        "secondary_language": null,
+        "organisation_id": null,
+        "themes": [],
+        "groups": [],
+        "skills": []
+    },
+    {
+        "user_id": "5aa069a59dcc76be1cd9a16067ab0caf",
+        "locality": {
+            "locality_id": 1004,
+            "locality_name": "Vilanova",
+            "locality_parent": {
+                "locality_id": 1000,
+                "locality_name": "Spain",
+                "locality_parent": null
+            }
+        },
+        "primary_language": {
+            "language_id": 5,
+            "language_code": "ca",
+            "language_name": "Catalan"
+        },
+        "secondary_language": null,
+        "organisation_id": null,
+        "themes": [],
+        "groups": [],
+        "skills": []
+    },
+    {
+        "user_id": "7379428dddfabba9125aad5cb926818c",
+        "locality": {
+            "locality_id": 1007,
+            "locality_name": "Dublin",
+            "locality_parent": {
+                "locality_id": 1003,
+                "locality_name": "Ireland",
+                "locality_parent": null
+            }
+        },
+        "primary_language": {
+            "language_id": 1,
+            "language_code": "en",
+            "language_name": "English"
+        },
+        "secondary_language": null,
+        "organisation_id": null,
+        "themes": [],
+        "groups": [],
+        "skills": []
+    },
+    {
+        "user_id": "2c7159b25f85fbfeab51c9aa2f89680c",
+        "locality": {
+            "locality_id": 1007,
+            "locality_name": "Dublin",
+            "locality_parent": {
+                "locality_id": 1003,
+                "locality_name": "Ireland",
+                "locality_parent": null
+            }
+        },
+        "primary_language": {
+            "language_id": 1,
+            "language_code": "en",
+            "language_name": "English"
+        },
+        "secondary_language": null,
+        "organisation_id": null,
+        "themes": [],
+        "groups": [],
+        "skills": []
+    },
+    {
+        "user_id": "8570621baf7148fe752f265c7d16c2c5",
+        "locality": {
+            "locality_id": 1005,
+            "locality_name": "Tampere",
+            "locality_parent": {
+                "locality_id": 1001,
+                "locality_name": "Finland",
+                "locality_parent": null
+            }
+        },
+        "primary_language": {
+            "language_id": 3,
+            "language_code": "fi",
+            "language_name": "Finnish"
+        },
+        "secondary_language": null,
+        "organisation_id": null,
+        "themes": [
+            {
+                "theme_id": 1,
+                "theme_name": "Accessibility"
+            },
+            {
+                "theme_id": 2,
+                "theme_name": "Activities"
+            },
+            {
+                "theme_id": 4,
+                "theme_name": "Communication"
+            },
+            {
+                "theme_id": 6,
+                "theme_name": "Equipment"
+            },
+            {
+                "theme_id": 11,
+                "theme_name": "Wellness"
+            }
+        ],
+        "groups": [
+            {
+                "group_id": 17
+            },
+            {
+                "group_id": 22
+            },
+            {
+                "group_id": 24
+            },
+            {
+                "group_id": 25
+            },
+            {
+                "group_id": 29
+            },
+            {
+                "group_id": 30
+            },
+            {
+                "group_id": 31
+            }
+        ],
+        "skills": [
+            {
+                "skill_name": "Computer",
+                "skill_id": 4
+            },
+            {
+                "skill_name": "Data",
+                "skill_id": 5
+            },
+            {
+                "skill_name": "Design",
+                "skill_id": 6
+            },
+            {
+                "skill_name": "Information",
+                "skill_id": 10
+            },
+            {
+                "skill_name": "Technology",
+                "skill_id": 11
+            },
+            {
+                "skill_name": "Science",
+                "skill_id": 15
+            },
+            {
+                "skill_name": "Teaching",
+                "skill_id": 16
+            }
+        ]
+    },
+    {
+        "user_id": "159edfb8b42c0df383b5384e3308c177",
+        "locality": {
+            "locality_id": 1005,
+            "locality_name": "Tampere",
+            "locality_parent": {
+                "locality_id": 1001,
+                "locality_name": "Finland",
+                "locality_parent": null
+            }
+        },
+        "primary_language": {
+            "language_id": 3,
+            "language_code": "fi",
+            "language_name": "Finnish"
+        },
+        "secondary_language": null,
+        "organisation_id": null,
+        "themes": [],
+        "groups": [],
+        "skills": []
+    },
+    {
+        "user_id": "777f87e16438827a2be1101007c044e1",
+        "locality": {
+            "locality_id": 1004,
+            "locality_name": "Vilanova",
+            "locality_parent": {
+                "locality_id": 1000,
+                "locality_name": "Spain",
+                "locality_parent": null
+            }
+        },
+        "primary_language": {
+            "language_id": 5,
+            "language_code": "ca",
+            "language_name": "Catalan"
+        },
+        "secondary_language": null,
+        "organisation_id": null,
+        "themes": [],
+        "groups": [],
+        "skills": []
+    },
+    {
+        "user_id": "0dd2f10acddbea0b43f689359dd365e9",
+        "locality": {
+            "locality_id": 1004,
+            "locality_name": "Vilanova",
+            "locality_parent": {
+                "locality_id": 1000,
+                "locality_name": "Spain",
+                "locality_parent": null
+            }
+        },
+        "primary_language": {
+            "language_id": 2,
+            "language_code": "es",
+            "language_name": "Spanish"
+        },
+        "secondary_language": null,
+        "organisation_id": null,
+        "themes": [],
+        "groups": [],
+        "skills": []
+    }
+]

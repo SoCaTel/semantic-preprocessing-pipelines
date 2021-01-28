@@ -1,0 +1,7 @@
+[
+    {
+        "@id": "http://linkedpipes.com/resources/components/t-shaclValidator/0.0.0/configuration",
+        "@type" : ["http://plugins.linkedpipes.com/ontology/t-shaclValidator#Configuration"],
+        "http://plugins.linkedpipes.com/ontology/t-shaclValidator#failOnError": false
+    }
+]

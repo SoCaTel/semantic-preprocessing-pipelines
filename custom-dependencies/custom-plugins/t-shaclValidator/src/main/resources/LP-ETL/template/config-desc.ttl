@@ -1,0 +1,11 @@
+@prefix config: <http://plugins.linkedpipes.com/ontology/configuration/> .
+
+<http://linkedpipes.com/resources/components/t-shaclValidator/0.0.0/configuration/desc>
+    a <http://plugins.linkedpipes.com/ontology/ConfigurationDescription> ;
+    config:type <http://plugins.linkedpipes.com/ontology/t-shaclValidator#Configuration> ;
+    config:member <http://linkedpipes.com/resources/components/t-shaclValidator/0.0.0/configuration/desc/failOnError> .
+
+<http://linkedpipes.com/resources/components/t-shaclValidator/0.0.0/configuration/desc/failOnError>
+    a config:ConfigurationMember ;
+    config:property <http://plugins.linkedpipes.com/ontology/t-shaclValidator#failOnError> ;
+    config:control <http://plugins.linkedpipes.com/ontology/t-shaclValidator#failOnErrorControl> .

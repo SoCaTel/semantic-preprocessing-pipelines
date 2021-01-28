@@ -1,0 +1,9 @@
+{
+    "@id": "{HOST_IP}:32800/base",
+    "@type" : "http://etl.linkedpipes.com/ontology/ExecutionOptions",
+    "http://linkedpipes.com/ontology/deleteWorkingData" : true,
+    "http://linkedpipes.com/ontology/saveDebugData" : false,  
+    "http://linkedpipes.com/ontology/logPolicy" : { 
+    	"@id" : "http://linkedpipes.com/ontology/log/DeleteOnSuccess"
+    }
+}

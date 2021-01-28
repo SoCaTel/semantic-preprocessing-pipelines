@@ -1,0 +1,8 @@
+
+<{HOST_IP}:32800/resources/components/1563184030887-9ee5ea5e-b68f-40c5-a1ad-c3c5b3df782b> {
+  <{HOST_IP}:32800/resources/components/1563184030887-9ee5ea5e-b68f-40c5-a1ad-c3c5b3df782b>
+    a <http://linkedpipes.com/ontology/Template>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/t-sparqlSelect/0.0.0>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Select WordNet concepts";
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/components/1563184030887-9ee5ea5e-b68f-40c5-a1ad-c3c5b3df782b/configuration> .
+}

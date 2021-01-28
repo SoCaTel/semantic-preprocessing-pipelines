@@ -1,0 +1,349 @@
+[
+    {
+        "group_id": 1,
+        "group_name": "Title",
+        "group_description": "Description",
+        "group_status": 5,
+        "group_create_time": 1567363442000,
+        "group_next_step_time": null,
+        "locality": {
+            "locality_id": 1004,
+            "locality_name": "Vilanova",
+            "locality_parent": {
+                "locality_id": 1000,
+                "locality_name": "Spain",
+                "locality_parent": null
+            }
+        },
+        "language": {
+            "language_id": 2,
+            "language_code": "es",
+            "language_name": "Spanish"
+        },
+        "user_initiator_id": "b81e9640f16e29fd3ff909e8b8c50299",
+        "themes": [
+            {
+                "theme_id": 2,
+                "theme_name": "Activities"
+            },
+            {
+                "theme_id": 6,
+                "theme_name": "Equipment"
+            }
+        ],
+        "users": [
+            "b81e9640f16e29fd3ff909e8b8c50299"
+        ]
+    },
+    {
+        "group_id": 2,
+        "group_name": "Title 2",
+        "group_description": "Testing",
+        "group_status": 5,
+        "group_create_time": 1567366457000,
+        "group_next_step_time": null,
+        "locality": {
+            "locality_id": 1000,
+            "locality_name": "Spain",
+            "locality_parent": null
+        },
+        "language": {
+            "language_id": 2,
+            "language_code": "es",
+            "language_name": "Spanish"
+        },
+        "user_initiator_id": "b81e9640f16e29fd3ff909e8b8c50299",
+        "themes": [
+            {
+                "theme_id": 5,
+                "theme_name": "ABS"
+            },
+            {
+                "theme_id": 7,
+                "theme_name": "Food"
+            }
+        ],
+        "users": [
+            "b81e9640f16e29fd3ff909e8b8c50299"
+        ]
+    },
+    {
+        "group_id": 6,
+        "group_name": "Unexpected help needed",
+        "group_description": "I need some help on my daily activities\r\nI don't know in which moment the need of help appears.\r\nWhen appears I don't know how to proceed or where to find it.",
+        "group_status": 1,
+        "group_create_time": 1567432615000,
+        "group_next_step_time": null,
+        "locality": {
+            "locality_id": 1000,
+            "locality_name": "Spain",
+            "locality_parent": null
+        },
+        "language": {
+            "language_id": 2,
+            "language_code": "es",
+            "language_name": "Spanish"
+        },
+        "user_initiator_id": "13382d4e04d6af8ae43f3a8204877372",
+        "themes": [
+            {
+                "theme_id": 7,
+                "theme_name": "Food"
+            },
+            {
+                "theme_id": 11,
+                "theme_name": "Wellness"
+            }
+        ],
+        "users": [
+            "13382d4e04d6af8ae43f3a8204877372"
+        ]
+    },
+    {
+        "group_id": 5,
+        "group_name": "I want to know who and where to contact if I want home care",
+        "group_description": "The HSE's website is no good at giving me the places to contact if I want home support",
+        "group_status": 1,
+        "group_create_time": 1567432320000,
+        "group_next_step_time": 1570024716000,
+        "locality": {
+            "locality_id": 1007,
+            "locality_name": "Dublin",
+            "locality_parent": {
+                "locality_id": 1003,
+                "locality_name": "Ireland",
+                "locality_parent": null
+            }
+        },
+        "language": {
+            "language_id": 1,
+            "language_code": "en",
+            "language_name": "English"
+        },
+        "user_initiator_id": "bb745beffaec5ed001160a7a92a69429",
+        "themes": [
+            {
+                "theme_id": 1,
+                "theme_name": "Accessibility"
+            }
+        ],
+        "users": [
+            "fe88be2705ad1a684176a8ae1b2e4cb6",
+            "066c0ef13d3cd1e92fe5bf7583cfa2fd",
+            "bb745beffaec5ed001160a7a92a69429"
+        ]
+    },
+    {
+        "group_id": 4,
+        "group_name": "compartir vivienda",
+        "group_description": "Una de las principales necesidades en el contexto actual es el disponer de un techo donde vivir. Las personas mayores, y no tan mayores, no todas disponen de un hogar.\r\nEs preciso que podamos pensar alternativas a las actuales que puedan ofrecer una respuesta a esta necesidad.",
+        "group_status": 1,
+        "group_create_time": 1567432264000,
+        "group_next_step_time": 1570024777000,
+        "locality": {
+            "locality_id": 1000,
+            "locality_name": "Spain",
+            "locality_parent": null
+        },
+        "language": {
+            "language_id": 2,
+            "language_code": "es",
+            "language_name": "Spanish"
+        },
+        "user_initiator_id": "3338a24e0f1d0c01a4d9ce1e1c9307f2",
+        "themes": [
+            {
+                "theme_id": 1,
+                "theme_name": "Accessibility"
+            },
+            {
+                "theme_id": 3,
+                "theme_name": "Administration"
+            },
+            {
+                "theme_id": 10,
+                "theme_name": "Social"
+            }
+        ],
+        "users": [
+            "13382d4e04d6af8ae43f3a8204877372",
+            "3338a24e0f1d0c01a4d9ce1e1c9307f2"
+        ]
+    },
+    {
+        "group_id": 23,
+        "group_name": "Kuljetuspalveluiden kehitt\u00e4minen ik\u00e4ihmisille",
+        "group_description": "Miten parantaa ik\u00e4ihmisten liikkuvuutta kaupungissa tarvitsemiensa palveluiden \u00e4\u00e4relle?",
+        "group_status": 5,
+        "group_create_time": 1568198964000,
+        "group_next_step_time": null,
+        "locality": {
+            "locality_id": 1005,
+            "locality_name": "Tampere",
+            "locality_parent": {
+                "locality_id": 1001,
+                "locality_name": "Finland",
+                "locality_parent": null
+            }
+        },
+        "language": {
+            "language_id": 3,
+            "language_code": "fi",
+            "language_name": "Finnish"
+        },
+        "user_initiator_id": "d5c74eb5f6ede98762ce08b425ab6b10",
+        "themes": [
+            {
+                "theme_id": 9,
+                "theme_name": "Mobility"
+            }
+        ],
+        "users": [
+            "d5c74eb5f6ede98762ce08b425ab6b10"
+        ]
+    },
+    {
+        "group_id": 3,
+        "group_name": "The quality of food delivery services",
+        "group_description": "Essential for older persons that cannot buy food or cook, food delivery services are not yet widespread and equally efficient. A number of state-sponsored and private services exist nowadays, yet they only serve areas with high-density and have constraints as to the range of food served and delivery times. The HSE is looking to gather feedback from the various stakeholders involved in food delivery, to understand the possible solutions.",
+        "group_status": 3,
+        "group_create_time": 1567413579000,
+        "group_next_step_time": 1568292567407,
+        "locality": {
+            "locality_id": 1003,
+            "locality_name": "Ireland",
+            "locality_parent": null
+        },
+        "language": {
+            "language_id": 1,
+            "language_code": "en",
+            "language_name": "English"
+        },
+        "user_initiator_id": "97999264a60c9e32cc0c45ba87acf857",
+        "themes": [
+            {
+                "theme_id": 7,
+                "theme_name": "Food"
+            }
+        ],
+        "users": [
+            "b81e9640f16e29fd3ff909e8b8c50299",
+            "fe88be2705ad1a684176a8ae1b2e4cb6",
+            "97999264a60c9e32cc0c45ba87acf857",
+            "2af8ce5ea45210cfc278bc70365e4bf6",
+            "b047a8175a95575a3a121e48aacb840a",
+            "438b28bd0ec37fd28e00ca912da50bdd",
+            "ff08beba0aabed56ad1052911209bf0c",
+            "bb745beffaec5ed001160a7a92a69429",
+            "608b05774452dd3ddf4e893937545207"
+        ]
+    },
+    {
+        "group_id": 24,
+        "group_name": "saunapalvelu",
+        "group_description": "saunabussi; asiakkaille jotka eiv\u00e4t p\u00e4\u00e4se kotonaan pesulle",
+        "group_status": 1,
+        "group_create_time": 1568198968000,
+        "group_next_step_time": 1570791050000,
+        "locality": {
+            "locality_id": 1005,
+            "locality_name": "Tampere",
+            "locality_parent": {
+                "locality_id": 1001,
+                "locality_name": "Finland",
+                "locality_parent": null
+            }
+        },
+        "language": {
+            "language_id": 3,
+            "language_code": "fi",
+            "language_name": "Finnish"
+        },
+        "user_initiator_id": "9f9c6e5cd6ad4a28824069f50458ccbb",
+        "themes": [
+            {
+                "theme_id": 11,
+                "theme_name": "Wellness"
+            }
+        ],
+        "users": [
+            "781b129a5ae1970f953471b3b4a27ee8",
+            "154d77ee3fecc99f388532c37dd14e43",
+            "ab1783e25b2c111e459d71d31d74fb7b",
+            "9f9c6e5cd6ad4a28824069f50458ccbb",
+            "503838ec86d5c032526748b96e7212c6",
+            "8570621baf7148fe752f265c7d16c2c5"
+        ]
+    },
+    {
+        "group_id": 32,
+        "group_name": "Test",
+        "group_description": "Test",
+        "group_status": 5,
+        "group_create_time": 1568550845000,
+        "group_next_step_time": null,
+        "locality": {
+            "locality_id": 1004,
+            "locality_name": "Vilanova",
+            "locality_parent": {
+                "locality_id": 1000,
+                "locality_name": "Spain",
+                "locality_parent": null
+            }
+        },
+        "language": {
+            "language_id": 2,
+            "language_code": "es",
+            "language_name": "Spanish"
+        },
+        "user_initiator_id": "b81e9640f16e29fd3ff909e8b8c50299",
+        "themes": [
+            {
+                "theme_id": 4,
+                "theme_name": "Communication"
+            }
+        ],
+        "users": [
+            "b81e9640f16e29fd3ff909e8b8c50299"
+        ]
+    },
+    {
+        "group_id": 18,
+        "group_name": "Testing testing",
+        "group_description": "Tuleeko l\u00e4pi Lennulle?",
+        "group_status": 3,
+        "group_create_time": 1568181354000,
+        "group_next_step_time": 1568624170358,
+        "locality": {
+            "locality_id": 1005,
+            "locality_name": "Tampere",
+            "locality_parent": {
+                "locality_id": 1001,
+                "locality_name": "Finland",
+                "locality_parent": null
+            }
+        },
+        "language": {
+            "language_id": 3,
+            "language_code": "fi",
+            "language_name": "Finnish"
+        },
+        "user_initiator_id": "c7e8c9560e9edf40933c0708983df349",
+        "themes": [
+            {
+                "theme_id": 3,
+                "theme_name": "Administration"
+            }
+        ],
+        "users": [
+            "781b129a5ae1970f953471b3b4a27ee8",
+            "c7e8c9560e9edf40933c0708983df349",
+            "154d77ee3fecc99f388532c37dd14e43",
+            "471ff3169205b30f9aafea49581ea8b3",
+            "2324deb6fa4163381371d1c37c5b1489",
+            "b3cf4a041b19aa9eedd9fa0efab81922",
+            "e223b363b5b3d0493f4ddbfb5029dace",
+            "5e9f1a7d409f9a9570612ad6999f053f"
+        ]
+    }
+]

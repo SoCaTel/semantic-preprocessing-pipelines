@@ -1,0 +1,37 @@
+@prefix config: <http://plugins.linkedpipes.com/ontology/configuration/> .
+@prefix dm: <http://etl.linkedpipes.com/ontology/components/e-voidDataset/> .
+@prefix desc: <http://etl.linkedpipes.com/ontology/components/e-voidDataset/desc/> .
+
+<http://etl.linkedpipes.com/resources/components/e-voidDataset/0.0.0/configurationDescription>
+    a <http://plugins.linkedpipes.com/ontology/ConfigurationDescription> ;
+    config:type <http://etl.linkedpipes.com/ontology/components/e-voidDataset/Configuration> ;
+    config:member desc:getDistributionIRIFromInput,
+        desc:distributionIRI ,
+        desc:exampleResourceIRIs ,
+        desc:sparqlEndpointIRI,
+        desc:copyDownloadURLsToDataDumps .
+
+desc:getDistributionIRIFromInput
+    a config:ConfigurationMember ;
+    config:property dm:getDistributionIRIFromInput ;
+    config:control dm:getDistributionIRIFromInputControl .
+
+desc:distributionIRI
+    a config:ConfigurationMember ;
+    config:property dm:distributionIRI ;
+    config:control dm:distributionIRIControl .
+
+desc:exampleResourceIRIs
+    a config:ConfigurationMember ;
+    config:property dm:exampleResourceIRIs ;
+    config:control dm:exampleResourceIRIsControl .
+
+desc:sparqlEndpointIRI
+    a config:ConfigurationMember ;
+    config:property dm:sparqlEndpointIRI ;
+    config:control dm:sparqlEndpointIRIControl .
+
+desc:copyDownloadURLsToDataDumps
+    a config:ConfigurationMember ;
+    config:property dm:copyDownloadURLsToDataDumps ;
+    config:control dm:copyDownloadURLsToDataDumpsControl .

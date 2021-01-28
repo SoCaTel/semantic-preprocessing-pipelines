@@ -1,0 +1,242 @@
+[
+  {
+          "favorited" : false,
+          "truncated" : false,
+          "id" : 1150744947613741056,
+          "id_str" : "1150744947613741056",
+          "coordinates" : null,
+          "retweeted" : false,
+          "in_reply_to_user_id_str" : null,
+          "created_at" : "Mon Jul 15 12:32:29 +0000 2019",
+          "place" : null,
+          "lang" : "en",
+          "retweet_count" : 40,
+          "source" : "\"\"<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>\"\"",
+          "in_reply_to_status_id" : null,
+          "user" : {
+            "favourites_count" : 2082,
+            "default_profile" : false,
+            "geo_enabled" : true,
+            "location" : "in 14 counties in Ireland",
+            "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme14/bg.gif",
+            "id" : 61456216,
+            "default_profile_image" : false,
+            "friends_count" : 1988,
+            "time_zone" : null,
+            "id_str" : "61456216",
+            "url" : null,
+            "translator_type" : "none",
+            "statuses_count" : 4860,
+            "profile_link_color" : "FF691F",
+            "created_at" : "Thu Jul 30 10:49:41 +0000 2009",
+            "screen_name" : "EnableIreland",
+            "profile_banner_url" : "https://pbs.twimg.com/profile_banners/61456216/1500991900",
+            "contributors_enabled" : false,
+            "follow_request_sent" : false,
+            "profile_background_tile" : true,
+            "is_translation_enabled" : false,
+            "lang" : null,
+            "protected" : false,
+            "listed_count" : 75,
+            "verified" : true,
+            "profile_text_color" : "FF5405",
+            "profile_use_background_image" : true,
+            "has_extended_profile" : false,
+            "is_translator" : false,
+            "following" : false,
+            "followers_count" : 5158,
+            "entities" : {
+              "description" : {
+                "urls" : [
+                  {
+                    "expanded_url" : "http://www.enableireland.ie",
+                    "indices" : [
+                      119,
+                      142
+                    ],
+                    "url" : "https://t.co/FxmCccM0OU",
+                    "display_url" : "enableireland.ie"
+                  }
+                ]
+              }
+            },
+            "utc_offset" : null,
+            "profile_image_url_https" : "https://pbs.twimg.com/profile_images/1046764656436613120/VK8CaZKl_normal.jpg",
+            "profile_image_url" : "http://pbs.twimg.com/profile_images/1046764656436613120/VK8CaZKl_normal.jpg",
+            "description" : "Making a difference in the lives of children and adults with disabilities in Ireland. Registered Charity No. 20006617. https://t.co/FxmCccM0OU",
+            "name" : "Enable Ireland",
+            "profile_sidebar_fill_color" : "FFFFFF",
+            "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_sidebar_border_color" : "FFFFFF",
+            "notifications" : false,
+            "profile_background_color" : "FA6800"
+          },
+          "entities" : {
+            "user_mentions" : [
+              {
+                "id" : 40011487,
+                "id_str" : "40011487",
+                "name" : "Muckross Park Hotel",
+                "screen_name" : "muckrosspark",
+                "indices" : [
+                  3,
+                  16
+                ]
+              },
+              {
+                "id" : 2380582321,
+                "id_str" : "2380582321",
+                "name" : "Killarney Today",
+                "screen_name" : "KillarneyToday",
+                "indices" : [
+                  36,
+                  51
+                ]
+              },
+              {
+                "id" : 61456216,
+                "id_str" : "61456216",
+                "name" : "Enable Ireland",
+                "screen_name" : "EnableIreland",
+                "indices" : [
+                  108,
+                  122
+                ]
+              }
+            ],
+            "hashtags" : [ ],
+            "symbols" : [ ],
+            "urls" : [ ]
+          },
+          "favorite_count" : 0,
+          "contributors" : null,
+          "text" : "RT @muckrosspark: Great write up in @KillarneyToday on our Bubbles and Brunch Event this Thursday in aid of @EnableIreland \nWe are very clo…",
+          "in_reply_to_screen_name" : null,
+          "in_reply_to_user_id" : null,
+          "geo" : null,
+          "retweeted_status" : {
+            "favorited" : false,
+            "truncated" : true,
+            "id" : 1150693668455686144,
+            "id_str" : "1150693668455686144",
+            "coordinates" : null,
+            "retweeted" : false,
+            "in_reply_to_user_id_str" : null,
+            "created_at" : "Mon Jul 15 09:08:44 +0000 2019",
+            "lang" : "en",
+            "retweet_count" : 4,
+            "source" : "\"\"<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>\"\"",
+            "possibly_sensitive" : false,
+            "in_reply_to_status_id" : null,
+            "user" : {
+              "favourites_count" : 1156,
+              "default_profile" : false,
+              "geo_enabled" : true,
+              "location" : "Killarney, Co. Kerry, Ireland",
+              "profile_background_image_url" : "http://abs.twimg.com/images/themes/theme2/bg.gif",
+              "id" : 40011487,
+              "default_profile_image" : false,
+              "friends_count" : 1663,
+              "time_zone" : null,
+              "id_str" : "40011487",
+              "url" : "https://t.co/Y1ikzMnhPu",
+              "translator_type" : "none",
+              "statuses_count" : 3146,
+              "profile_link_color" : "1F98C7",
+              "created_at" : "Thu May 14 15:06:20 +0000 2009",
+              "screen_name" : "muckrosspark",
+              "profile_banner_url" : "https://pbs.twimg.com/profile_banners/40011487/1565176332",
+              "contributors_enabled" : false,
+              "follow_request_sent" : false,
+              "profile_background_tile" : true,
+              "is_translation_enabled" : false,
+              "lang" : null,
+              "protected" : false,
+              "listed_count" : 71,
+              "verified" : false,
+              "profile_text_color" : "663B12",
+              "profile_use_background_image" : true,
+              "has_extended_profile" : false,
+              "is_translator" : false,
+              "following" : false,
+              "followers_count" : 4951,
+              "entities" : {
+                "description" : {
+                  "urls" : [ ]
+                },
+                "url" : {
+                  "urls" : [
+                    {
+                      "expanded_url" : "http://bit.ly/SummerInMuckross",
+                      "indices" : [
+                        0,
+                        23
+                      ],
+                      "url" : "https://t.co/Y1ikzMnhPu",
+                      "display_url" : "bit.ly/SummerInMuckro…"
+                    }
+                  ]
+                }
+              },
+              "utc_offset" : null,
+              "profile_image_url_https" : "https://pbs.twimg.com/profile_images/1159059327958827009/q7LVQYJC_normal.png",
+              "profile_image_url" : "http://pbs.twimg.com/profile_images/1159059327958827009/q7LVQYJC_normal.png",
+              "description" : "In the heart of Killarney National Park, 5 star authentic architecture, lavish interiors & culinary excellence await. Share your #MuckrossMoments",
+              "name" : "Muckross Park Hotel",
+              "profile_sidebar_fill_color" : "DAECF4",
+              "profile_background_image_url_https" : "https://abs.twimg.com/images/themes/theme2/bg.gif",
+              "profile_sidebar_border_color" : "FFFFFF",
+              "notifications" : false,
+              "profile_background_color" : "C6E2EE"
+            },
+            "entities" : {
+              "user_mentions" : [
+                {
+                  "id" : 2380582321,
+                  "id_str" : "2380582321",
+                  "name" : "Killarney Today",
+                  "screen_name" : "KillarneyToday",
+                  "indices" : [
+                    18,
+                    33
+                  ]
+                },
+                {
+                  "id" : 61456216,
+                  "id_str" : "61456216",
+                  "name" : "Enable Ireland",
+                  "screen_name" : "EnableIreland",
+                  "indices" : [
+                    90,
+                    104
+                  ]
+                }
+              ],
+              "hashtags" : [ ],
+              "symbols" : [ ],
+              "urls" : [
+                {
+                  "expanded_url" : "https://twitter.com/i/web/status/1150693668455686144",
+                  "indices" : [
+                    117,
+                    140
+                  ],
+                  "url" : "https://t.co/EPm2xhOGL4",
+                  "display_url" : "twitter.com/i/web/status/1…"
+                }
+              ]
+            },
+            "favorite_count" : 9,
+            "contributors" : null,
+            "text" : "Great write up in @KillarneyToday on our Bubbles and Brunch Event this Thursday in aid of @EnableIreland \nWe are ve… https://t.co/EPm2xhOGL4",
+            "in_reply_to_screen_name" : null,
+            "in_reply_to_user_id" : null,
+            "geo" : null,
+            "place" : null,
+            "is_quote_status" : false,
+            "in_reply_to_status_id_str" : null
+          },
+          "is_quote_status" : false,
+          "in_reply_to_status_id_str" : null
+  }
+]

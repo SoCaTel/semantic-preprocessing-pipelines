@@ -1,0 +1,49 @@
+<lp-dialog-control-config lp-dialog="dialog" lp-application="application"></lp-dialog-control-config>
+<div>
+    <div class="row">
+        <md-input-container class="md-block" ng-hide="dialog.dataSource.hide"
+                            flex>
+            <label>Data Source</label>
+            <md-select ng-model="dialog.dataSource.value"
+                       ng-disabled="dialog.dataSource.disabled || dialog.dataSource.inherit">
+                <md-option value="TWITTER">Twitter</md-option>
+                <md-option value="FACEBOOK_POST">Facebook Post</md-option>
+                <md-option value="FACEBOOK_PAGE">Facebook Page</md-option>
+                <md-option value="OPENDATA_CKAN">OpenData (CKAN)</md-option>
+                <md-option value="SOCATEL_SERVICE">SoCaTel Service</md-option>
+                <md-option value="SOCATEL_ORGANISATION">SoCaTel Organisation</md-option>
+                <md-option value="SOCATEL_GROUP">SoCaTel Group</md-option>
+                <md-option value="SOCATEL_USER">SoCaTel User</md-option>
+            </md-select>
+        </md-input-container>
+    </div>
+    <div class="row">
+        <md-input-container class="md-block" ng-hide="dialog.singleArray.hide"
+                            flex>
+            <label>Single Element / Array of Elements</label>
+            <md-select ng-model="dialog.singleArray.value"
+                       ng-disabled="dialog.singleArray.disabled || dialog.singleArray.inherit">
+                <md-option value="SINGLE">Single Element</md-option>
+                <md-option value="ARRAY">Array of Elements</md-option>
+            </md-select>
+        </md-input-container>
+    </div>
+    <div class="row">
+	    <md-input-container class="md-block" ng-hide="dialog.singleRootPath.hide">
+	        <label>JSON path to single element</label>
+	        <input ng-model="dialog.singleRootPath.value"
+	               ng-disabled="dialog.singleRootPath.disabled || dialog.singleRootPath.inherit"
+                   placeholder="example a.b.c">
+	    </md-input-container>
+    </div>
+    <div class="row" ng-show="dialog.singleArray.value == 'ARRAY'"
+    				 ng-hide="dialog.singleArray.value != 'ARRAY'">
+	    <md-input-container class="md-block" ng-hide="dialog.arrayRootPath.hide">
+	        <label>JSON path to array element</label>
+	        <input ng-model="dialog.arrayRootPath.value"
+	               ng-disabled="dialog.arrayRootPath.disabled || dialog.arrayRootPath.inherit"
+                   placeholder="example a.b.c">
+	    </md-input-container>
+    </div>
+</div>
+

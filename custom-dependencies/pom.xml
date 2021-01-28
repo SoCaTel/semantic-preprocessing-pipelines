@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.linkedpipes</groupId>
+    <artifactId>custom-dependencies</artifactId>
+    <version>0.0.0</version>
+    <packaging>pom</packaging>
+    <name>LinkedPipes custom dependencies</name>
+
+    <properties>
+        <deploy.directory>../etl/deploy</deploy.directory>
+        <jars.directory>${deploy.directory}/jars/custom</jars.directory>
+        <data.directory>${deploy.directory}/data</data.directory>
+    </properties>
+
+    <modules>
+        <module>custom-plugins</module>
+    </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>2.7</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy</goal>
+                        </goals>
+                        <configuration>
+                            <artifactItems>
+                                <dependency>
+                                    <groupId>com.linkedpipes</groupId>
+                                    <artifactId>e-sparqlEndpointMultiConstruct</artifactId>
+                                    <version>0.0.0</version>
+                                    <outputDirectory>${jars.directory}/e-sparqlEndpointMultiConstruct/</outputDirectory>
+                                </dependency>
+                                <dependency>
+                                    <groupId>com.linkedpipes</groupId>
+                                    <artifactId>l-graphStoreProtocolGraphDB</artifactId>
+                                    <version>0.0.0</version>
+                                    <outputDirectory>${jars.directory}/l-graphStoreProtocolGraphDB/</outputDirectory>
+                                </dependency>
+                                <dependency>
+                                    <groupId>com.linkedpipes</groupId>
+                                    <artifactId>t-shaclValidator</artifactId>
+                                    <version>0.0.0</version>
+                                    <outputDirectory>${jars.directory}/t-shaclValidator/</outputDirectory>
+                                </dependency>
+                                <dependency>
+                                    <groupId>com.linkedpipes</groupId>
+                                    <artifactId>t-socatelExternalDataTransformer</artifactId>
+                                    <version>0.0.0</version>
+                                    <outputDirectory>${jars.directory}/t-socatelExternalDataTransformer/</outputDirectory>
+                                </dependency>
+                            </artifactItems>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>1.8</version>
+                <executions>
+                    <execution>
+                        <id>copy-dependencies</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <target>
+                                <copy todir="${data.directory}/pipelines/">
+                                    <fileset dir="./pipelines" includes="**/*" />
+                                </copy>
+                                <copy todir="${data.directory}/templates/">
+                                    <fileset dir="./templates" includes="**/*" />
+                                </copy>
+                                <copy todir="${data.directory}/shapes/">
+                                    <fileset dir="./shapes" includes="**/*" />
+                                </copy>
+                                <copy todir="${data.directory}/options/">
+                                    <fileset dir="./options" includes="**/*" />
+                                </copy>
+                            </target>
+                        </configuration>
+                    </execution>
+                </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>ant-contrib</groupId>
+                        <artifactId>ant-contrib</artifactId>
+                        <version>20020829</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

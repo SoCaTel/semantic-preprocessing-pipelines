@@ -1,0 +1,14 @@
+[
+    {
+        "@id": "http://linkedpipes.com/resources/components/e-sparqlEndpointMultiConstruct/0.0.0/configuration",
+        "@type" : ["http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#Configuration"],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#query": "CONSTRUCT { ?s ?p ?o } WHERE { ?s ?p ?o}",
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointMultiConstruct#queryControl" : {
+            "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+        },
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepository": false,
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepositoryControl" : {
+            "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+        }
+    }
+]

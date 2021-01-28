@@ -1,0 +1,157 @@
+[
+	{
+		"locality": {
+			"locality_name": "Ireland",
+			"locality_id": 1003,
+			"locality_parent": null
+		},
+		"language": {
+			"language_id": 1,
+			"language_code": "en",
+			"language_name": "English"
+		},
+		"themes": [{
+			"theme_id": 1,
+			"theme_name": "Accessibility"
+		}, {
+			"theme_id": 4,
+			"theme_name": "Communication"
+		}, {
+			"theme_id": 8,
+			"theme_name": "Health"
+		}, {
+			"theme_id": 10,
+			"theme_name": "Mobility"
+		}, {
+			"theme_id": 11,
+			"theme_name": "Wellness"
+		}],
+		"service_id": 3,
+		"service_name": "Home Support Services",
+		"service_description": "The HSE Home Support Service aims to assist and support people to remain at home and support informal carers: getting in and out of bed, dressing and undressing, personal care such as showering and shaving, help at mealtime and/or with essential domestic duties. Aged 65 or over, Need support to continue living at home or to return home following a hospital stay, Not a 24hr care, Assessed on care needs and not on income level, Free service",
+		"service_website": "https://www.hse.ie/eng/",
+		"service_hashtag": "",
+		"service_status": "",
+		"twitter_screen_name": null,
+		"twitter_account_description": null,
+		"twitter_user_id": null,
+		"twitter_oauth_token": null,
+		"twitter_oauth_secret": null,
+		"facebook_oauth_token": null,
+		"facebook_page_id": null,
+		"group_id": null,
+		"organisation_id": 4
+	},
+	{
+		"locality": {
+			"locality_name": "Tampere",
+			"locality_id": 1005,
+			"locality_parent": {
+				"locality_name": "Finland",
+				"locality_id": 1001,
+				"locality_parent": null
+			}
+		},
+		"language": {
+			"language_id": 3,
+			"language_code": "fi",
+			"language_name": "Finish"
+		},
+		"themes": [{
+			"theme_id": 3,
+			"theme_name": "Administration"
+		}, {
+			"theme_id": 4,
+			"theme_name": "Communication"
+		}, {
+			"theme_id": 4,
+			"theme_name": "Health"
+		}, {
+			"theme_id": 11,
+			"theme_name": "Wellness"
+		}, {
+			"theme_id": 1,
+			"theme_name": "Accessbility"
+		}, {
+			"theme_id": 2,
+			"theme_name": "Activities"
+		}, {
+			"theme_id": 7,
+			"theme_name": "Food"
+		}, {
+			"theme_id": 11,
+			"theme_name": "Social"
+		}],
+		"service_id": 40,
+		"service_name": "Administration, Accessibility: Escorting and helping with handling different things, Saatto- ja asiointiapu",
+		"service_description": "Lähihoitaja tai vastaava henkilö lähtee saattamaan asiakasta palvelubussilla, tavallisella bussilla, taksilla tai työntekijän omalla autolla. Joko niin, että asiakas viedään ko. paikkaan ja noudetaan sieltä, tai niin, että hoitaja on koko asiointiajan mukana.",
+		"service_website": "http://www.ikifit.fi/",
+		"service_hashtag": "",
+		"service_status": "",
+		"twitter_screen_name": null,
+		"twitter_account_description": null,
+		"twitter_user_id": null,
+		"twitter_oauth_token": null,
+		"twitter_oauth_secret": null,
+		"facebook_oauth_token": null,
+		"facebook_page_id": null,
+		"group_id": null,
+		"organisation_id": 38
+	},
+	{
+		"locality": {
+			"locality_name": "Tampere",
+			"locality_id": 1005,
+			"locality_parent": {
+				"locality_name": "Finland",
+				"locality_id": 1001,
+				"locality_parent": null
+			}
+		},
+		"language": {
+			"language_id": 3,
+			"language_code": "fi",
+			"language_name": "Finish"
+		},
+		"themes": [{
+			"theme_id": 3,
+			"theme_name": "Administration"
+		}, {
+			"theme_id": 4,
+			"theme_name": "Communication"
+		}, {
+			"theme_id": 4,
+			"theme_name": "Health"
+		}, {
+			"theme_id": 11,
+			"theme_name": "Wellness"
+		}, {
+			"theme_id": 1,
+			"theme_name": "Accessbility"
+		}, {
+			"theme_id": 2,
+			"theme_name": "Activities"
+		}, {
+			"theme_id": 7,
+			"theme_name": "Food"
+		}, {
+			"theme_id": 11,
+			"theme_name": "Social"
+		}],
+		"service_id": 45,
+		"service_name": "Health:Terveyteen liittyviä palveluita",
+		"service_description": "Sairaanhoitaja, lääkäri tai terapeutti voi tarvittaessa käydä itsemaksavan iäkkään henkilön kotona, esim. haavanhoito, näytteenotto, kuntoutus,  terveyden tai lääkehoidon seuranta.",
+		"service_website": "www.laakarikeskusmedical.fi",
+		"service_hashtag": "",
+		"service_status": "",
+		"twitter_screen_name": null,
+		"twitter_account_description": null,
+		"twitter_user_id": null,
+		"twitter_oauth_token": null,
+		"twitter_oauth_secret": null,
+		"facebook_oauth_token": null,
+		"facebook_page_id": null,
+		"group_id": null,
+		"organisation_id": 43
+	}
+]

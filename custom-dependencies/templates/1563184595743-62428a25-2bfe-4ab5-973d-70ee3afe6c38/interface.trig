@@ -1,0 +1,8 @@
+
+<{HOST_IP}:32800/resources/components/1563184595743-62428a25-2bfe-4ab5-973d-70ee3afe6c38> {
+  <{HOST_IP}:32800/resources/components/1563184595743-62428a25-2bfe-4ab5-973d-70ee3afe6c38>
+    a <http://linkedpipes.com/ontology/Template>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/l-graphStoreProtocolGraphDB/0.0.0>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Store data in local GraphDB";
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/components/1563184595743-62428a25-2bfe-4ab5-973d-70ee3afe6c38/configuration> .
+}

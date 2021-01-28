@@ -1,0 +1,31 @@
+
+<{HOST_IP}:32800/resources/components/1563184595743-62428a25-2bfe-4ab5-973d-70ee3afe6c38/configuration> {
+  <{HOST_IP}:32800/resources/components/1563184595743-62428a25-2bfe-4ab5-973d-70ee3afe6c38/configuration/0>
+    a <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#authentification>
+      false;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#authentificationControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#checkSize> false;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#checkSizeControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#endpoint> "{HOST_IP}:7200/repositories/SOCATEL_EXTERNAL/rdf-graphs/service";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#endpointControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#endpointSelectControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#graph> "http://www.everis.es/SoCaTel/ontology#";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#graphControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#password> "{GRAPHDB_PWD}";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#passwordControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#replace> false;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#replaceControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#repository> "GRAPHDB";
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#repositoryControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/l-graphStoreProtocolGraphDB#userControl>
+      <http://plugins.linkedpipes.com/resource/configuration/None> .
+}

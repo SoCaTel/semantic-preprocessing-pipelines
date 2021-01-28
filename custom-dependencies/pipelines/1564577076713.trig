@@ -1,0 +1,66 @@
+
+<{HOST_IP}:32800/resources/pipelines/1564577076713> {
+  <{HOST_IP}:32800/resources/pipelines/1564577076713> a <http://linkedpipes.com/ontology/Pipeline>;
+    <http://etl.linkedpipes.com/ontology/version> "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+    <http://linkedpipes.com/ontology/profile> <{HOST_IP}:32800/resources/pipelines/1564577076713/profile/default>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "SHACL validation tester" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1564577076713/profile/default> a <http://linkedpipes.com/ontology/ExecutionProfile>;
+    <http://linkedpipes.com/ontology/rdfRepositoryPolicy> <http://linkedpipes.com/ontology/repository/SingleRepository>;
+    <http://linkedpipes.com/ontology/rdfRepositoryType> <http://linkedpipes.com/ontology/repository/NativeStore> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1564577076713/component/0fed-8136> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1564577076713/component/0fed-8136/configuration>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/e-filesFromLocal/0.0.0>;
+    <http://linkedpipes.com/ontology/x> 705;
+    <http://linkedpipes.com/ontology/y> 252;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Load shapes file" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1564577076713/component/3e26-a32e> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1564577076713/component/3e26-a32e/configuration>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/t-shaclValidator/0.0.0>;
+    <http://linkedpipes.com/ontology/x> 1176;
+    <http://linkedpipes.com/ontology/y> 150;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "SHACL Validator" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1564577076713/component/6047-95d7> a <http://linkedpipes.com/ontology/Component>;
+    <http://linkedpipes.com/ontology/configurationGraph> <{HOST_IP}:32800/resources/pipelines/1564577076713/component/6047-95d7/configuration>;
+    <http://linkedpipes.com/ontology/template> <http://etl.linkedpipes.com/resources/components/e-filesFromLocal/0.0.0>;
+    <http://linkedpipes.com/ontology/x> 714;
+    <http://linkedpipes.com/ontology/y> 95;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Load data file" .
+  
+  <{HOST_IP}:32800/resources/pipelines/1564577076713/connection/e0f8-9008> a
+      <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "FilesOutput";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1564577076713/component/0fed-8136>;
+    <http://linkedpipes.com/ontology/targetBinding> "ShapesFile";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1564577076713/component/3e26-a32e> .
+  
+  <{HOST_IP}:32800/resources/pipelines/1564577076713/connection/ef69-9606> a
+      <http://linkedpipes.com/ontology/Connection>;
+    <http://linkedpipes.com/ontology/sourceBinding> "FilesOutput";
+    <http://linkedpipes.com/ontology/sourceComponent> <{HOST_IP}:32800/resources/pipelines/1564577076713/component/6047-95d7>;
+    <http://linkedpipes.com/ontology/targetBinding> "DataFile";
+    <http://linkedpipes.com/ontology/targetComponent> <{HOST_IP}:32800/resources/pipelines/1564577076713/component/3e26-a32e> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1564577076713/component/0fed-8136/configuration> {
+  <{HOST_IP}:32800/resources/pipelines/1564577076713/component/0fed-8136/configuration>
+    a <http://plugins.linkedpipes.com/ontology/e-filesFromLocal#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/e-filesFromLocal#path> "./data/shapes/shapes.ttl";
+    <http://plugins.linkedpipes.com/ontology/e-filesFromLocal#pathControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1564577076713/component/3e26-a32e/configuration> {
+  <http://etl.linkedpipes.com/resources/components/t-shaclValidator/0.0.0/new/1> a <http://plugins.linkedpipes.com/ontology/t-shaclValidator#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-shaclValidator#failOnError> false;
+    <http://plugins.linkedpipes.com/ontology/t-shaclValidator#failOnErrorControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
+}
+
+<{HOST_IP}:32800/resources/pipelines/1564577076713/component/6047-95d7/configuration> {
+  <{HOST_IP}:32800/resources/pipelines/1564577076713/component/6047-95d7/configuration>
+    a <http://plugins.linkedpipes.com/ontology/e-filesFromLocal#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/e-filesFromLocal#path> "./data/shapes/data.ttl";
+    <http://plugins.linkedpipes.com/ontology/e-filesFromLocal#pathControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
+}

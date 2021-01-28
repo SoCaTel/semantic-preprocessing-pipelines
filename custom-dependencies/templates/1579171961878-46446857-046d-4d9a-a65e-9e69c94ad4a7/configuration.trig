@@ -1,0 +1,11 @@
+
+<{HOST_IP}:32800/resources/components/1579171961878-46446857-046d-4d9a-a65e-9e69c94ad4a7/configuration> {
+  <{HOST_IP}:32800/resources/components/1579171961878-46446857-046d-4d9a-a65e-9e69c94ad4a7/configuration/0>
+    a <http://plugins.linkedpipes.com/ontology/t-rdfToFile#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileName> "duplicates.ttl";
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileNameControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileType> "text/turtle";
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#fileTypeControl> <http://plugins.linkedpipes.com/resource/configuration/None>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#graphUri> <http://www.everis.es/SoCaTel/ontology/duplicates#>;
+    <http://plugins.linkedpipes.com/ontology/t-rdfToFile#graphUriControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
+}

@@ -1,0 +1,11 @@
+
+<{HOST_IP}:32800/resources/components/1563183926701-84f3fb70-a598-4745-a27d-92e8ef3fc6d2/configuration> {
+  <{HOST_IP}:32800/resources/components/1563183926701-84f3fb70-a598-4745-a27d-92e8ef3fc6d2/configuration>
+    a <http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration>;
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query> """CONSTRUCT { ?s ?p ?o } 
+WHERE {
+  ?s ?p ?o
+  FILTER (!isBlank(?s) && !isBlank(?o))
+}""";
+    <http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl> <http://plugins.linkedpipes.com/resource/configuration/None> .
+}
