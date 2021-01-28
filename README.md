@@ -1,6 +1,6 @@
 <img src="https://platform.socatel.eu/images/socatel-logo.png" alt="SoCaTelLogo" width="250" />
 
-# **LinkedPipes in SoCaTel**
+# **Semantic Preprocessing Pipelines**
 
 This README file provides a go-to reference for the semantic pre-processing layer. It includes details on how to install, deploy and run LinkedPipes, the tool used for the semantic transformation of data. Moreover, it also details how the transformation pipelines can be executed once the tool is up and running.
 
