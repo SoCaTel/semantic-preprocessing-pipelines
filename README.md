@@ -168,3 +168,10 @@ Semantic Preprocessing Pipelines is under [Apache-2.0](LICENSE).
 [Rizkallah Touma](mailto:rizk.allah.touma@everis.com)
 
 [Emmanuel Jamin](mailto:emmanuel.jean.jacques.jamin@everis.com)
+
+[<img src="https://www.everis.com/sites/all/themes/everis/logo.png" alt="everis group" width="150" />](https://www.everis.com/global/en)
+
+## Acknowledgments
+
+* [SoCaTel project](https://www.socatel.eu/)
+* [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/en)
